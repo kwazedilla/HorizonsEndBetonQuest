@@ -1,6 +1,7 @@
 conversations:
   flynnBart:
     quester: "Flynn Bart"
+    stop: "true"
     first: "conv_01, fail, succeed_01, done"
     NPC_options:
       conv_01:
