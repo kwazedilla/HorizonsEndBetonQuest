@@ -4,46 +4,46 @@ conversations:
     first: "conv_01, fail, succeed_01, done"
     NPC_options:
       conv_01:
-        text: "Hello there, Space Cadet! Before you get started on your space journey, you should probably learn a thing or two about &5chetherite&r."
+        text: "Hello there, Space Cadet! Before you get started on your space journey, you should probably learn a thing or two about &5chetherite&r.\n"
         pointer: "conv_01_r"
         condition: "!condAcc"
       conv_02:
-        text: "&5Chetherite&r acts as hyperdrive fuel. &bEvery hyperspace jump consumes two chetherite in each hopper of a hyperdrive&r."
+        text: "&5Chetherite&r acts as hyperdrive fuel. &bEvery hyperspace jump consumes two chetherite in each hopper of a hyperdrive&r.\n"
         pointer: "conv_02_r"
       conv_03:
-        text: "Since you need chetherite in order to travel quickly through space, &cit's important to establish a reliable source of chetherite before you embark on your journey&r."
+        text: "Since you need chetherite in order to travel quickly through space, &cit's important to establish a reliable source of chetherite before you embark on your journey&r.\n"
         pointer: "conv_03_r"
       conv_04:
-        text: "&aLuxiterna&r is a planet that's close to this planet, &bIlius&r. It is rich in both &5chetherite&r and &auranium&r - perfect minerals for a new space cadet like you to mine."
+        text: "&aLuxiterna&r is a planet that's close to this planet, &bIlius&r. It is rich in both &5chetherite&r and &auranium&r - perfect minerals for a new space cadet like you to mine.\n"
         pointer: "conv_04_r"
       conv_05:
-        text: "Use the &eDynmap&r. I'll provide a link after this conversation. You can either &acruise&r there or jump to hyperspace. (You can get a one-time allotment of chetherite with &b/kit cheth&r."
+        text: "Use the &eDynmap&r. I'll provide a link after this conversation. You can either &acruise&r there or jump to hyperspace. (You can get a one-time allotment of chetherite with &b/kit cheth&r.\n"
         pointer: "conv_05_r"
       conv_06:
-        text: "I have a task for you. &bMine 16 chetherite ore&r and demonstrate to me that you can navigate through space and establish a chetherite supply. Once you do that, I'll give you &aadditional chetherite&r."
+        text: "I have a task for you. &bMine 16 chetherite ore&r and demonstrate to me that you can navigate through space and establish a chetherite supply. Once you do that, I'll give you &aadditional chetherite&r.\n"
         pointer: "conv_06_r"
       conv_07:
-        text: "Remember, &euse the Dynmap to navigate through space&r and practice ship movement. Also, &cbuying chetherite on the market doesn't count: you must mine it by hand!&r"
+        text: "Remember, &euse the Dynmap to navigate through space&r and practice ship movement. Also, &cbuying chetherite on the market doesn't count: you must mine it by hand!&r\n"
         pointer: "conv_07_r"
       conv_08:
-        text: "Good luck! And remember, check your &a/journal &rif you forget your objectives. &bAsk for help from other players, too!&r"
+        text: "Good luck! And remember, check your &a/journal &rif you forget your objectives. &bAsk for help from other players, too!&r\n"
         pointer: "conv_08_r"
 
       fail:
-        text: "You haven't collected &bsixteen chetherite&r yet. Remember, &euse the Dynmap to navigate through space&r, check your&a /journal&r, and to ask for help in the &2global chat&r."
+        text: "You haven't collected &bsixteen chetherite&r yet. Remember, &euse the Dynmap to navigate through space&r, check your&a /journal&r, and to ask for help in the &2global chat&r.\n"
         condition: "condActive"
         pointer: "fail_r"
 
       succeed_01:
-        text: "Nice job; well done! You've &blearned how to pilot your starship&r and &ago to other planets&r. As promised, here is an extra &5chetherite&r stipend."
+        text: "Nice job; well done! You've &blearned how to pilot your starship&r and &ago to other planets&r. As promised, here is an extra &5chetherite&r stipend.\n"
         condition: "condAcc, !condActive, !condDone"
         pointer: "succeed_01_r"
       succeed_02:
-        text: "You've gained the skills to become a true space cadet. Good luck on your journey!"
+        text: "You've gained the skills to become a true space cadet. Good luck on your journey!\n"
         pointer: "succeed_02_r"
 
       done:
-        text: "Sorry, I don't have any more quests to give you. Have a good one!"
+        text: "Sorry, I don't have any more quests to give you. Have a good one!\n"
         condition: "condDone"
         pointer: "done_r"
 
