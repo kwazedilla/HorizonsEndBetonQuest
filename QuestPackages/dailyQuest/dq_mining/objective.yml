@@ -1,0 +1,11 @@
+objectives:
+  dq_mineIronOre_obj: "block minecraft:iron_ore -5 notify condition:iron_Loc event:dq_mineIronOre_ev_folder_done"
+  dq_mineRedstoneOre_obj: "block minecraft:redstone_ore -5 notify condition:redstone_Loc event:dq_mineRedstoneOre_ev_folder_done"
+  dq_mineDiamondOre_obj: "block minecraft:diamond_ore -5 notify condition:diamond_Loc event:dq_mineDiamondOre_ev_folder_done"
+  dq_mineCoalOre_obj: "block minecraft:coal_ore -5 notify condition:coal_Loc event:dq_mineCoalOre_ev_folder_done"
+  dq_mineEmeraldOre_obj: "block minecraft:emerald_ore -5 notify condition:emerald_Loc event:dq_mineEmeraldOre_ev_folder_done"
+  dq_mineCopperOre_obj: "block minecraft:copper_ore -5 notify condition:copper_Loc event:dq_mineCopperOre_ev_folder_done"
+  dq_mineChetheriteOre_obj: "block minecraft:brown_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=false] -5 notify condition:chetherite_Loc event:dq_mineChetheriteOre_ev_folder_done"
+  dq_mineAluminumOre_obj: "block minecraft:brown_mushroom_block[down=false,east=false,north=true,south=false,up=true,west=false] -5 notify condition:aluminum_Loc event:dq_mineAluminumOre_ev_folder_done"
+  dq_mineUraniumOre_obj: "block minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=false] -5 notify condition:uranium_Loc event:dq_mineUraniumOre_ev_folder_done"
+  dq_mineTitaniumOre_obj: "block minecraft:brown_mushroom_block[down=false,east=false,north=false,south=false,up=true,west=true] -5 notify condition:titanium_Loc event:dq_mineTitaniumOre_ev_folder_done"

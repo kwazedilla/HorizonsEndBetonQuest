@@ -1,0 +1,4 @@
+conditions:
+  dq_joshVos_cond: tag dq_joshVos_obj
+  dq_aquaKyrell_cond: tag dq_aquaKyrell_obj
+  dq_fargusTapal_cond: tag dq_fargusTapal_obj

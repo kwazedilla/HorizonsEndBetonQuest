@@ -1,0 +1,38 @@
+conversations:
+  navbot:
+    quester: "Navigation Droid"
+    first: "navbot_conv_tutorial, navbot_conv_tp"
+    NPC_options:
+      navbot_conv_tutorial:
+        text: "Come talk to me once you've &cfinished the tutorial&r and talked to the &6&lCertification Droid&r."
+        pointer: "navbot_conv_tutorial_r"
+        condition: "!certbot_cond_tutorial_done"
+      navbot_conv_tp:
+        text: "Where would you like to go in the tutorial? &b(Scroll wheel or W/S to navigate, click/jump to select, shift/sneak to cancel)&r"
+        pointer: "navbot_conv_tp_intro, navbot_conv_tp_kit, navbot_conv_tp_multiblocks, navbot_conv_tp_ship_multiblocks_1, navbot_conv_tp_ship_multiblocks_2, navbot_conv_tp_certbot, navbot_conv_tp_landing_pads"
+
+    player_options:
+      navbot_conv_tutorial_r: 
+        text: "..."
+
+      navbot_conv_tp_intro:
+        text: "Starships and planets introduction"
+        event: "navbot_ev_tp_intro"
+      navbot_conv_tp_kit:
+        text: "/kit starter, ores, gear, and levels"
+        event: "navbot_ev_tp_kit"
+      navbot_conv_tp_multiblocks:
+        text: "General multiblocks"
+        event: "navbot_ev_tp_multiblocks"
+      navbot_conv_tp_ship_multiblocks_1:
+        text: "Starship multiblocks 1"
+        event: "navbot_ev_tp_ship_multiblocks_1"
+      navbot_conv_tp_ship_multiblocks_2:
+        text: "Starship multiblocks 2"
+        event: "navbot_ev_tp_ship_multiblocks_2"
+      navbot_conv_tp_certbot:
+        text: "Certification Bot"
+        event: "navbot_ev_tp_certbot"
+      navbot_conv_tp_landing_pads:
+        text: "Landing Pads"
+        event: "navbot_ev_tp_landing_pads"

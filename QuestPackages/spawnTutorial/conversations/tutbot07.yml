@@ -1,0 +1,36 @@
+conversations:
+  tutbot07:
+    quester: "Tutorial Droid"
+    first: "tutbot07_conv_01"
+    NPC_options:
+      tutbot07_conv_01:
+        text: "Combat on Horizon's End provides many more possibilities than mere swords and bows."
+        pointer: "tutbot07_conv_01_r"
+      tutbot07_conv_02:
+        text: "You can craft &cBlasters&r like that Pistol you have there to fire powerful energy bolts at your enemies."
+        pointer: "tutbot07_conv_02_r"
+      tutbot07_conv_03:
+        text: "To protect yourself, craft &cPower Armor&r to grant yourself various buffs."
+        pointer: "tutbot07_conv_03_r"
+      tutbot07_conv_04:
+        text: "If Blasters are uncivilized, craft an &cEnergy Sword&r and gain a powerful melee weapon and the ability to defend yourself from blaster bolts."
+        pointer: "tutbot07_conv_04_r"
+      tutbot07_conv_05:
+        text: "Please proceed to the next Tutorial Droid."
+        pointer: "tutbot07_conv_05_r"
+
+    player_options:
+      tutbot07_conv_01_r: 
+        text: "..."
+        pointer: "tutbot07_conv_02"
+      tutbot07_conv_02_r: 
+        text: "..."
+        pointer: "tutbot07_conv_03"
+      tutbot07_conv_03_r: 
+        text: "..."
+        pointer: "tutbot07_conv_04"
+      tutbot07_conv_04_r: 
+        text: "..."
+        pointer: "tutbot07_conv_05"
+      tutbot07_conv_05_r:
+        text: "..."

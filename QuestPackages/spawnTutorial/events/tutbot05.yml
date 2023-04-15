@@ -1,0 +1,11 @@
+events:
+  tutbot05_ev_suit: "tag add tutbot05_tag_suit"
+  tutbot05_ev_suit_obj_start: "objective start tutbot05_put_on_suit"
+  tutbot05_ev_suit_obj_end: "objective complete tutbot05_put_on_suit"
+
+  tutbot05_ev_shoot: "tag add tutbot05_tag_shoot"
+  tutbot05_ev_shoot_obj_start: "objective start tutbot05_shoot_targets"
+  tutbot05_ev_shoot_obj_end: "objective complete tutbot05_shoot_targets"
+
+  tutbot05_ev_suit_reset: "tag del tutbot05_tag_suit"
+  tutbot05_ev_shoot_reset: "tag del tutbot05_tag_shoot"

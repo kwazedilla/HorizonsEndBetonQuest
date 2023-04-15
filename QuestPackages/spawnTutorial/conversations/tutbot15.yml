@@ -1,0 +1,24 @@
+conversations:
+  tutbot15:
+    quester: "Tutorial Droid"
+    first: "tutbot15_conv_01"
+    NPC_options:
+      tutbot15_conv_01:
+        text: "To enter a planet, &bfly your ship into the planet in space&r."
+        pointer: "tutbot15_conv_01_r"
+      tutbot15_conv_02:
+        text: "To exit a planet, &bfly your ship upwards until your ship hits the build height limit (currently y = 384)&r."
+        pointer: "tutbot15_conv_02_r"
+      tutbot15_conv_03:
+        text: "Please proceed to the next Tutorial Droid."
+        pointer: "tutbot15_conv_03_r"
+
+    player_options:
+      tutbot15_conv_01_r: 
+        text: "..."
+        pointer: "tutbot15_conv_02"
+      tutbot15_conv_02_r:
+        text: "..."
+        pointer: "tutbot15_conv_03"
+      tutbot15_conv_03_r:
+        text: "..."

@@ -1,0 +1,52 @@
+journal:
+  dq_mining_journal_mineIronOre: >-
+    $journal_headline$
+      Mine &2%math.calc:-1*objective.dq_mineAluminumOre_obj.left% Iron Ore&0 on &2Ilius&0 or &2Aret&0. &4You must mine this ore by hand on the planet. 
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mining_journal_mineRedstoneOre: >-
+    $journal_headline$
+      Mine &2%math.calc:-1*objective.dq_mineRedstoneOre_obj.left% Redstone Ore&0 on &2Rubaciea&0 or &2Chimgara&0. &4You must mine this ore by hand on the planet. 
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mining_journal_mineDiamondOre: >-
+    $journal_headline$
+      Mine &2%math.calc:-1*objective.dq_mineDiamondOre_obj.left% Diamond Ore&0 on &2Krio&0 or &2Lioda&0. &4You must mine this ore by hand on the planet. 
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mining_journal_mineCoalOre: >-
+    $journal_headline$
+      Mine &2%math.calc:-1*objective.dq_mineCoalOre_obj.left% Coal Ore&0 on &2Aerach&0 or &2Qatra&0. &4You must mine this ore by hand on the planet. 
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mining_journal_mineEmeraldOre: >-
+    $journal_headline$
+      Mine &2%math.calc:-1*objective.dq_mineEmeraldOre_obj.left% Emerald Ore&0 on &2Gahara&0 or &2Turms&0. &4You must mine this ore by hand on the planet. 
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mining_journal_mineCopperOre: >-
+    $journal_headline$
+      Mine &2%math.calc:-1*objective.dq_mineCopperOre_obj.left% Copper Ore&0 on &2Vask&0 or &2Herdoli&0. &4You must mine this ore by hand on the planet. 
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mining_journal_mineChetheriteOre: >-
+    $journal_headline$
+      Mine &2%math.calc:-1*objective.dq_mineChetheriteOre_obj.left% Chetherite Ore&0 on &2Damkoth&0 or &2Luxiterna&0. &4You must mine this ore by hand on the planet. 
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mining_journal_mineAluminumOre: >-
+    $journal_headline$
+      Mine &2%math.calc:-1*objective.dq_mineAluminumOre_obj.left% Aluminum Ore&0 on &2Isik&0 or &2Kovfefe&0. &4You must mine this ore by hand on the planet. 
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mining_journal_mineUraniumOre: >-
+    $journal_headline$
+      Mine &2%math.calc:-1*objective.dq_mineUraniumOre_obj.left% Uranium Ore&0 on &2Luxiterna&0. &4You must mine this ore by hand on the planet. 
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mining_journal_mineTitaniumOre: >-
+    $journal_headline$
+      Mine &2%math.calc:-1*objective.dq_mineTitaniumOre_obj.left% Titanium Ore&0 on &2Chandra&0 or &2Aret&0. &4You must mine this ore by hand on the planet. 
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  

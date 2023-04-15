@@ -1,0 +1,36 @@
+conversations:
+  tutbot22:
+    quester: "Tutorial Droid"
+    first: "tutbot22_conv_01"
+    NPC_options:
+      tutbot22_conv_01:
+        text: "By the way, if you don't know what to do, try to earn some &eachievements&r."
+        pointer: "tutbot22_conv_01_r"
+      tutbot22_conv_02:
+        text: "Achievements are a list of tasks that give you a one-time reward of XP and credits upon completion."
+        pointer: "tutbot22_conv_02_r"
+      tutbot22_conv_03:
+        text: "You can access the achievements menu with &b/achievements&r. Take a look and try to complete all of them."
+        pointer: "tutbot22_conv_03_r"
+      tutbot22_conv_04:
+        text: "By the way, I'm here instead of inside the building because I'm a bit defective. It's totally not because achievements were implemented at a later time."
+        pointer: "tutbot22_conv_04_r"
+      tutbot22_conv_05:
+        text: "Please proceed to the Ship Dealer to get your ship."
+        pointer: "tutbot22_conv_05_r"
+
+    player_options:
+      tutbot22_conv_01_r: 
+        text: "..."
+        pointer: "tutbot22_conv_02"
+      tutbot22_conv_02_r:
+        text: "..."
+        pointer: "tutbot22_conv_03"
+      tutbot22_conv_03_r:
+        text: "..."
+        pointer: "tutbot22_conv_04"
+      tutbot22_conv_04_r:
+        text: "..."
+        pointer: "tutbot22_conv_05"
+      tutbot22_conv_05_r:
+        text: "..."

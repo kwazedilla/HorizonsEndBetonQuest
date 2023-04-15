@@ -1,0 +1,57 @@
+conversations:
+  tutbot05:
+    quester: "Tutorial Droid"
+    first: "tutbot05_conv_01, tutbot05_suit_fail, tutbot05_suit_pass, tutbot05_shoot_fail, tutbot05_shoot_pass"
+    NPC_options:
+      tutbot05_conv_01:
+        text: "Time to get you some gear. Perform /kit starter after this conversation."
+        condition: "!tutbot05_cond_suit, !tutbot05_cond_shoot"
+        pointer: "tutbot05_conv_01_r"
+      tutbot05_conv_02:
+        text: "You will receive a Blaster Pistol, Power Drill, a Space Suit, and other items necessary to survive in space. Once you've received these items, &bput your Space Suit on&r."
+        event: "tutbot05_ev_suit, tutbot05_ev_suit_obj_start"
+        pointer: "tutbot05_conv_02_r"
+
+      tutbot05_suit_fail:
+        text: "You haven't put your Space Suit on yet! &bEquip your Space Suit&r."
+        condition: "tutbot05_cond_suit_active"
+        pointer: "tutbot05_suit_fail_r"
+
+      tutbot05_suit_pass:
+        text: "Nice job. Well done. Next, take your &cBlaster Pistol &rand take aim at a few of these &eTarget Practice Dummies&r. &bShoot five Target Practice Dummies &rwith the Left Mouse Button."
+        condition: "tutbot05_cond_suit, !tutbot05_cond_suit_active, !tutbot05_cond_shoot, !tutbot05_cond_shoot_active"
+        event: "tutbot05_ev_shoot, tutbot05_ev_shoot_obj_start"
+        pointer: "tutbot05_suit_pass_r"
+
+      tutbot05_shoot_fail:
+        text: "You haven't &bshot five Target Practice Dummies&r yet!"
+        condition: "tutbot05_cond_shoot_active"
+        pointer: "tutbot05_shoot_fail_r"
+
+      tutbot05_shoot_pass:
+        text: "Good shooting. You can proceed to the next room by taking the &eTractor Beam&r behind me. &bStand on the glass block and right click the sign while holding your clock.&r You can also retake the space suit and shooting training."
+        condition: "tutbot05_cond_shoot, !tutbot05_cond_shoot_active"
+        pointer: "tutbot05_shoot_pass_r, tutbot05_reset"
+
+    player_options:
+      tutbot05_conv_01_r: 
+        text: "..."
+        pointer: "tutbot05_conv_02"
+      tutbot05_conv_02_r:
+        text: "..."
+
+      tutbot05_suit_fail_r:
+        text: "..."
+
+      tutbot05_suit_pass_r:
+        text: "..."
+
+      tutbot05_shoot_fail_r:
+        text: "..."
+
+      tutbot05_shoot_pass_r:
+        text: "... (Continue the Tutorial)"
+      tutbot05_reset:
+        text: "Reset (Use the Scroll Wheel or press W or S to select this option)"
+        pointer: "tutbot05_conv_01"
+        event: "tutbot05_ev_suit_reset, tutbot05_ev_shoot_reset"

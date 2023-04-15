@@ -1,0 +1,30 @@
+conversations:
+  tutbot09:
+    quester: "Tutorial Droid"
+    first: "tutbot09_conv_01"
+    NPC_options:
+      tutbot09_conv_01:
+        text: "You are protected from PvP by a grace period (marked by a gold star next to your name)."
+        pointer: "tutbot09_conv_01_r"
+      tutbot09_conv_02:
+        text: "The grace period will end &cas you level up and/or play on the Survival server&r, or &cengage in PvP with another player&r."
+        pointer: "tutbot09_conv_02_r"
+      tutbot09_conv_03:
+        text: "&cIt is strongly recommended that you do not forfeit your grace period status early by engaging in PvP.&r"
+        pointer: "tutbot09_conv_03_r"
+      tutbot09_conv_04:
+        text: "Please proceed to the next Tutorial Droid."
+        pointer: "tutbot09_conv_04_r"
+
+    player_options:
+      tutbot09_conv_01_r: 
+        text: "..."
+        pointer: "tutbot09_conv_02"
+      tutbot09_conv_02_r:
+        text: "..."
+        pointer: "tutbot09_conv_03"
+      tutbot09_conv_03_r:
+        text: "..."
+        pointer: "tutbot09_conv_04"
+      tutbot09_conv_04_r:
+        text: "..."

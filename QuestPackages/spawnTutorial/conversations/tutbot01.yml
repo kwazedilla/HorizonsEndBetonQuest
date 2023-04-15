@@ -1,0 +1,43 @@
+conversations:
+  tutbot01:
+    quester: "Tutorial Droid"
+    first: "tutbot01_conv_01"
+    NPC_options:
+      tutbot01_conv_01:
+        text: "Welcome to Horizon's End!"
+        pointer: "tutbot01_conv_01_r"
+      tutbot01_conv_02:
+        text: "This is not a normal Minecraft server. You are about to experience a space adventure like no other."
+        pointer: "tutbot01_conv_02_r"
+      tutbot01_conv_03:
+        text: "Behind me is a starship; you will fly one like this as a part of your training."
+        pointer: "tutbot01_conv_03_r"
+      tutbot01_conv_04:
+        text: "Starships can be built to serve a variety of different purposes: cargo ships, mining ships, and even warships. Take part in epic space battles or relax as your starship participates in interstellar commerce."
+        pointer: "tutbot01_conv_04_r"
+      tutbot01_conv_05:
+        text: "Remember, this is the primary form of travel. There is no TP/teleport!"
+        pointer: "tutbot01_conv_05_r"
+      tutbot01_conv_06:
+        text: "Please proceed to the next Training Droid."
+        pointer: "tutbot01_conv_06_r"
+
+    player_options:
+      tutbot01_conv_01_r: 
+        text: "... (Open the chat window and click this option to proceed)"
+        pointer: "tutbot01_conv_02"
+      tutbot01_conv_02_r:
+        text: "... (Open the chat window and click this option to proceed)"
+        pointer: "tutbot01_conv_03"
+      tutbot01_conv_03_r:
+        text: "... (Open the chat window and click this option to proceed)"
+        pointer: "tutbot01_conv_04"
+      tutbot01_conv_04_r:
+        text: "... (Open the chat window and click this option to proceed)"
+        pointer: "tutbot01_conv_05"
+      tutbot01_conv_05_r:
+        text: "... (Open the chat window and click this option to proceed)"
+        pointer: "tutbot01_conv_06"
+      tutbot01_conv_06_r:
+        text: "... (Open the chat window and click this option to proceed)"
+        event: "tutbot01_ev_rp_link"

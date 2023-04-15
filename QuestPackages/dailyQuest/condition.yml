@@ -1,0 +1,6 @@
+conditions:
+  dailyQuest_cond_start: tag dailyQuest_start
+  dailyQuest_cond_done: tag dailyQuest_done
+  dailyQuest_cond_maxstreak: point commstreak 50
+  dailyQuest_cond_firstquest: point maxquest 0 equal
+  dailyQuest_cond_lastquest: point maxquest 3

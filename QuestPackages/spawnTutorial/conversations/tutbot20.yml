@@ -1,0 +1,36 @@
+conversations:
+  tutbot20:
+    quester: "Tutorial Droid"
+    first: "tutbot20_conv_01"
+    NPC_options:
+      tutbot20_conv_01:
+        text: "Players with similar goals can organize themselves into &bsettlements&r and &anations&r."
+        pointer: "tutbot20_conv_01_r"
+      tutbot20_conv_02:
+        text: "Settlements and nations can claim &eterritories&r to develop a base. See the &bDynmap&r to view planet territories."
+        pointer: "tutbot20_conv_02_r"
+      tutbot20_conv_03:
+        text: "Players that are not within the settlement and nation &ccannot break or steal&r from your settlement/nation territory."
+        pointer: "tutbot20_conv_03_r"
+      tutbot20_conv_04:
+        text: "You can create a settlement when you are &alevel 2&r by using /s create, and create a nation at &alevel 12&r by using /n create."
+        pointer: "tutbot20_conv_04_r"
+      tutbot20_conv_05:
+        text: "Please proceed to the next Tutorial Droid."
+        pointer: "tutbot20_conv_05_r"
+
+    player_options:
+      tutbot20_conv_01_r: 
+        text: "..."
+        pointer: "tutbot20_conv_02"
+      tutbot20_conv_02_r:
+        text: "..."
+        pointer: "tutbot20_conv_03"
+      tutbot20_conv_03_r:
+        text: "..."
+        pointer: "tutbot20_conv_04"
+      tutbot20_conv_04_r:
+        text: "..."
+        pointer: "tutbot20_conv_05"
+      tutbot20_conv_05_r:
+        text: "..."

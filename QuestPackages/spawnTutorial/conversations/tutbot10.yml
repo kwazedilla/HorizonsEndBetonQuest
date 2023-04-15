@@ -1,0 +1,25 @@
+conversations:
+  tutbot10:
+    quester: "Tutorial Droid"
+    first: "tutbot10_conv_01"
+    NPC_options:
+      tutbot10_conv_01:
+        text: "On Horizon's End, placing blocks in a certain way can create machines that have different functions. These are called &b&lMultiblocks.&r"
+        pointer: "tutbot10_conv_01_r"
+      tutbot10_conv_02:
+        text: "These multiblocks are used in factories and ships. You can view how to create them and their functionality on the Wiki."
+        pointer: "tutbot10_conv_02_r"
+      tutbot10_conv_03:
+        text: "Feel free to browse the multiblocks in this hallway, then proceed to the Tutorial Droid at the end of the hallway."
+        pointer: "tutbot10_conv_03_r"
+
+    player_options:
+      tutbot10_conv_01_r: 
+        text: "..."
+        pointer: "tutbot10_conv_02"
+      tutbot10_conv_02_r:
+        text: "..."
+        pointer: "tutbot10_conv_03"
+      tutbot10_conv_03_r:
+        text: "..."
+        event: "tutbot02_ev_wiki_link"

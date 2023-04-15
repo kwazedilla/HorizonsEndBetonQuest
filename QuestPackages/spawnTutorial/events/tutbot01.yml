@@ -1,0 +1,2 @@
+events:
+  tutbot01_ev_rp_link: 'command tellraw %player% {"text":"Click to get the Horizon''s End Resource Pack","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://github.com/HorizonsEndMC/ResourcePack"}}'

@@ -1,0 +1,12 @@
+conversations:
+  tutbot04:
+    quester: "Tutorial Droid"
+    first: "tutbot04_conv_01"
+    NPC_options:
+      tutbot04_conv_01:
+        text: "You can Double Jump by tapping your Jump key twice in succession. Try jumping over this gap."
+        pointer: "tutbot04_conv_01_r"
+    
+    player_options:
+      tutbot04_conv_01_r:
+        text: "..."

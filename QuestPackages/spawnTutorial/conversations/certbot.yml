@@ -1,0 +1,39 @@
+conversations:
+  certbot:
+    quester: "Certification Droid"
+    first: "certbot_conv_01, certbot_conv_met"
+    NPC_options:
+      certbot_conv_01:
+        text: "&eCongratulations on completing your training!&r You've become a real &bSpace Cadet!&r"
+        pointer: "certbot_conv_01_r"
+        condition: "!certbot_cond_tutorial_done"
+      certbot_conv_02:
+        text: "Next, you should continue on to the &blanding pads&r up ahead and talk to the &aShip Dealer&r to get a &eStarter Starship&r."
+        pointer: "certbot_conv_02_r"
+      certbot_conv_03:
+        text: "If you would like to see any part of this tutorial again, talk to a &aNavigator Droid&r to teleport between different sections of the tutorial."
+        pointer: "certbot_conv_03_r"
+      certbot_conv_04:
+        text: "Good luck, and have fun with your space journey. &6&lWelcome to Horizon's End!&r"
+        pointer: "certbot_conv_04_r"
+        event: "certbot_ev_tutorial_done"
+
+      certbot_conv_met:
+        text: "Welcome back! If you need a ship, &btalk to the Ship Dealer at the landing pads&r. If you want to revisit the tutorial, &atalk to a Navigator Droid&r."
+        pointer: "certbot_conv_met_r"
+
+    player_options:
+      certbot_conv_01_r: 
+        text: "..."
+        pointer: "certbot_conv_02"
+      certbot_conv_02_r:
+        text: "..."
+        pointer: "certbot_conv_03"
+      certbot_conv_03_r:
+        text: "..."
+        pointer: "certbot_conv_04"
+      certbot_conv_04_r:
+        text: "..."
+
+      certbot_conv_met_r:
+        text: "..."

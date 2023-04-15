@@ -1,0 +1,6 @@
+#npcs:
+#  '54': "comm_droid"
+variables:
+  quest_name: "Daily Commission"
+  quester_name: "comm_droid"
+  journal_headline: "$default.journal_head_prefix$$quest_name$$default.journal_head_suffix$"

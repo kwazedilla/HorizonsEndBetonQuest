@@ -1,0 +1,30 @@
+conversations:
+  tutbot08:
+    quester: "Tutorial Droid"
+    first: "tutbot08_conv_01"
+    NPC_options:
+      tutbot08_conv_01:
+        text: "On Horizon's End, there is a leveling system. These levels allow you to progress through the game to fly larger ships, up to 12,000 blocks."
+        pointer: "tutbot08_conv_01_r"
+      tutbot08_conv_02:
+        text: "At level one, you have access to &b&ltwo&r ship classes, &b&lShuttle & Starfighter&r. You unlock two new ship classes at &elevel 10, 20, 40, & 80&r."
+        pointer: "tutbot08_conv_02_r"
+      tutbot08_conv_03:
+        text: "Level up by sinking other players' starships &c(piracy)&r, hauling cargo between trade outposts &a(trading)&r, or buying XP with the &b/buyxp&r command. Check your current progress with the &b/xp&r command."
+        pointer: "tutbot08_conv_03_r"
+      tutbot08_conv_04:
+        text: "Please proceed to the next Tutorial Droid."
+        pointer: "tutbot08_conv_04_r"
+
+    player_options:
+      tutbot08_conv_01_r: 
+        text: "..."
+        pointer: "tutbot08_conv_02"
+      tutbot08_conv_02_r: 
+        text: "..."
+        pointer: "tutbot08_conv_03"
+      tutbot08_conv_03_r:
+        text: "..."
+        pointer: "tutbot08_conv_04"
+      tutbot08_conv_04_r:
+        text: "..."

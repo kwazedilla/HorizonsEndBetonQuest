@@ -1,0 +1,3 @@
+events:
+  tutbot02_ev_wiki_link: 'command tellraw %player% {"text":"Click to go to the Horizon''s End Wiki","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://wiki.horizonsend.net/wiki/Main_Page"}}'
+  tutbot02_ev_dynmap_link: 'command tellraw %player% {"text":"Click to go to the Horizon''s End Dynmap","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://survival.horizonsend.net/"}}'

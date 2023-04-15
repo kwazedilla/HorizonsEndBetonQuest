@@ -1,0 +1,24 @@
+conversations:
+  tutbot12:
+    quester: "Tutorial Droid"
+    first: "tutbot12_conv_01"
+    NPC_options:
+      tutbot12_conv_01:
+        text: "To detect a ship, take your clock, left click the jukebox, and click the &eRedetect&r button."
+        pointer: "tutbot12_conv_01_r"
+      tutbot12_conv_02:
+        text: "If the ship is &cnot connected to the ground or any other structure&r and the starship &ehas enough concrete&r, it will ready to be piloted!"
+        pointer: "tutbot12_conv_02_r"
+      tutbot12_conv_03:
+        text: "Please proceed to the next Tutorial Droid."
+        pointer: "tutbot12_conv_03_r"
+
+    player_options:
+      tutbot12_conv_01_r: 
+        text: "..."
+        pointer: "tutbot12_conv_02"
+      tutbot12_conv_02_r:
+        text: "..."
+        pointer: "tutbot12_conv_03"
+      tutbot12_conv_03_r:
+        text: "..."

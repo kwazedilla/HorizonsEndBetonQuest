@@ -1,0 +1,31 @@
+conversations:
+  tutbot13:
+    quester: "Tutorial Droid"
+    first: "tutbot13_conv_01"
+    NPC_options:
+      tutbot13_conv_01:
+        text: "To pilot your starship, &bright click the ship's jukebox with your clock once the ship is detected.&r"
+        pointer: "tutbot13_conv_01_r"
+      tutbot13_conv_02:
+        text: "Once piloting your ship, you can move with it! To move with your ship, you can either &eshift fly&r, or use &ecruise control&r."
+        pointer: "tutbot13_conv_02_r"
+      tutbot13_conv_03:
+        text: "Flying starships is best explained through a video. Please watch the video that will be &alinked after this conversation.&r"
+        pointer: "tutbot13_conv_03_r"
+      tutbot13_conv_04:
+        text: "Please proceed to the next Tutorial Driod."
+        pointer: "tutbot13_conv_04_r"
+
+    player_options:
+      tutbot13_conv_01_r: 
+        text: "..."
+        pointer: "tutbot13_conv_02"
+      tutbot13_conv_02_r:
+        text: "..."
+        pointer: "tutbot13_conv_03"
+      tutbot13_conv_03_r:
+        text: "..."
+        pointer: "tutbot13_conv_04"
+      tutbot13_conv_04_r:
+        text: "..."
+        event: "tutbot13_ev_flying_link"

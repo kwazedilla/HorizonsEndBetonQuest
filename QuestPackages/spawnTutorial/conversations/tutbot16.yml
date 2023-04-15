@@ -1,0 +1,36 @@
+conversations:
+  tutbot16:
+    quester: "Tutorial Droid"
+    first: "tutbot16_conv_01"
+    NPC_options:
+      tutbot16_conv_01:
+        text: "Starships can mount &clight&r and &cheavy weapons&r to fight other starships."
+        pointer: "tutbot16_conv_01_r"
+      tutbot16_conv_02:
+        text: "Generally, larger ships can fire more weapons at the same time compared to smaller ships."
+        pointer: "tutbot16_conv_02_r"
+      tutbot16_conv_03:
+        text: "To fire light weapons, &bleft click with a clock&r. To fire heavy weapons, &bhold right click with a clock&r."
+        pointer: "tutbot16_conv_03_r"
+      tutbot16_conv_04:
+        text: "Some heavy weapons require a &ccharge-up time&r and &cammo&r before they can fire."
+        pointer: "tutbot16_conv_04_r"
+      tutbot16_conv_05:
+        text: "Please proceed to the next Tutorial Droid."
+        pointer: "tutbot16_conv_05_r"
+
+    player_options:
+      tutbot16_conv_01_r: 
+        text: "..."
+        pointer: "tutbot16_conv_02"
+      tutbot16_conv_02_r:
+        text: "..."
+        pointer: "tutbot16_conv_03"
+      tutbot16_conv_03_r:
+        text: "..."
+        pointer: "tutbot16_conv_04"
+      tutbot16_conv_04_r:
+        text: "..."
+        pointer: "tutbot16_conv_05"
+      tutbot16_conv_05_r:
+        text: "..."

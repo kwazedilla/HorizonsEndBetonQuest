@@ -1,0 +1,38 @@
+conversations:
+  tutbot02:
+    quester: "Tutorial Droid"
+    first: "tutbot02_conv_01"
+    NPC_options:
+      tutbot02_conv_01:
+        text: "There are lots of planets for you to explore! Choose from a beautiful island paradise, a snowy mountain world, temparate forests or burning desert wastelands."
+        pointer: "tutbot02_conv_01_r"
+      tutbot02_conv_02:
+        text: "These planets are located in a massive 200,000 by 200,000 sector of Space. Use your starship to travel between planets."
+        pointer: "tutbot02_conv_02_r"
+      tutbot02_conv_03:
+        text: "The Dynamic Map (Dynmap) is essential to travel on Horizon's End. On this website, you can see the locations of each planet as well as piloted starships."
+        pointer: "tutbot02_conv_03_r"
+      tutbot02_conv_04:
+        text: "You can also use the Wiki to find out more about each planet. Links to the Dynmap and the Wiki will be posted after this conversation."
+        pointer: "tutbot02_conv_04_r"
+      tutbot02_conv_05:
+        text: "Please proceed to the next Training Droid."
+        pointer: "tutbot02_conv_05_r"
+
+    player_options:
+      tutbot02_conv_01_r: 
+        text: "..."
+        pointer: "tutbot02_conv_02"
+      tutbot02_conv_02_r: 
+        text: "..."
+        pointer: "tutbot02_conv_03"
+      tutbot02_conv_03_r:
+        text: "..."
+        pointer: "tutbot02_conv_04"
+      tutbot02_conv_04_r: 
+        text: "..."
+        pointer: "tutbot02_conv_05"
+      tutbot02_conv_05_r:
+        text: "..."
+        event: "tutbot02_ev_wiki_link, tutbot02_ev_dynmap_link"
+

@@ -1,0 +1,66 @@
+conversations:
+  josh_vos:
+    quester: "Josh Vos"
+    first: "conv_1_1"
+    NPC_options:
+      conv_1_1:
+        text: "Hello, stranger. Be careful out there in the copper mountains."
+        pointer: conv_1_1r, comm
+      comm_r:
+        text: "Thank you - these spare parts will help Ksav Village greatly."
+        pointer: comm_r_r
+
+    player_options:
+      conv_1_1r:
+        text: "(Exit conversation)"
+      comm:
+        text: "Here is your package."
+        pointer: comm_r
+        condition: dq_joshVos_cond
+      comm_r_r:
+        text: "(Complete Quest: Daily Commission)"
+        event: dq_joshVos_ev_folder_done
+
+  aqua_kyrell:
+    quester: "Aqua Kyrell"
+    first: "conv_1_1"
+    NPC_options:
+      conv_1_1:
+        text: "Sorry, I'm really busy with all of these lab samples. If you have something to say, make it quick."
+        pointer: conv_1_1r, comm
+      comm_r:
+        text: "These lab samples will accelerate my work! Thanks for taking on my request."
+        pointer: comm_r_r
+
+    player_options:
+      conv_1_1r:
+        text: "(Exit conversation)"
+      comm:
+        text: "Here is your package."
+        pointer: comm_r
+        condition: dq_aquaKyrell_cond
+      comm_r_r:
+        text: "(Complete Quest: Daily Commission)"
+        event: dq_aquaKyrell_ev_folder_done
+
+  fargus_tapal:
+    quester: "Fargus Tapal"
+    first: "conv_1_1"
+    NPC_options:
+      conv_1_1:
+        text: "I hope you're enjoying your time here at Ardnach Outpost."
+        pointer: conv_1_1r, comm
+      comm_r:
+        text: "This life support system should come in handy when it comes time to build a new dome. Thank you."
+        pointer: comm_r_r
+
+    player_options:
+      conv_1_1r:
+        text: "(Exit conversation)"
+      comm:
+        text: "Here is your package."
+        pointer: comm_r
+        condition: dq_fargusTapal_cond
+      comm_r_r:
+        text: "(Complete Quest: Daily Commission)"
+        event: dq_fargusTapal_ev_folder_done

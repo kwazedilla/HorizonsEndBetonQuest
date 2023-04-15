@@ -1,0 +1,3 @@
+objectives:
+  tutbot05_put_on_suit: "equip HEAD chainmail_helmet event:tutbot05_ev_suit_obj_end"
+  tutbot05_shoot_targets: "mobkill SNOWMAN 5 event:tutbot05_ev_shoot_obj_end"

@@ -1,0 +1,36 @@
+conversations:
+  tutbot21:
+    quester: "Tutorial Droid"
+    first: "tutbot21_conv_01"
+    NPC_options:
+      tutbot21_conv_01:
+        text: "Cryopods replace beds as the respawn mechanic. When you die, your consciousness will be uploaded to a new clone placed within your last constructed cryopod."
+        pointer: "tutbot21_conv_01_r"
+      tutbot21_conv_02:
+        text: "You were given the materials to construct a cryopod when you used &b/kit starter&r."
+        pointer: "tutbot21_conv_02_r"
+      tutbot21_conv_03:
+        text: "If your cryopod is destroyed by an explosion, it will be &ctemporarliy disabled&r! You will respawn here instead."
+        pointer: "tutbot21_conv_03_r"
+      tutbot21_conv_04:
+        text: "Care should be taken to protect your cryopod at all costs, as its destruction can lead to many inconvienences."
+        pointer: "tutbot21_conv_04_r"
+      tutbot21_conv_05:
+        text: "You've finished your training! Please continue to the &6&lCertification Droid&r to become &bCertified&r and start your journey!"
+        pointer: "tutbot21_conv_05_r"
+
+    player_options:
+      tutbot21_conv_01_r: 
+        text: "..."
+        pointer: "tutbot21_conv_02"
+      tutbot21_conv_02_r:
+        text: "..."
+        pointer: "tutbot21_conv_03"
+      tutbot21_conv_03_r:
+        text: "..."
+        pointer: "tutbot21_conv_04"
+      tutbot21_conv_04_r:
+        text: "..."
+        pointer: "tutbot21_conv_05"
+      tutbot21_conv_05_r:
+        text: "..."

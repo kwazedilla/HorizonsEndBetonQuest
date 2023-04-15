@@ -1,0 +1,33 @@
+events:
+  dq_delivery_ev_folder_done: "folder dailyQuest.dailyQuest_ev_start_del,dailyQuest.dailyQuest_ev_notify_done,dailyQuest.dailyQuest_ev_streak_inc,dailyQuest.dailyQuest_ev_money,dailyQuest.dailyQuest_ev_maxquest_inc,dailyQuest.dailyQuest_ev_done,dailyQuest.dailyQuest_ev_comms_inc"
+  dq_delivery_ev_folder_start: "folder dailyQuest.dailyQuest_ev_start"
+
+  dq_joshVos_ev_obj_start: "tag add dq_joshVos_obj"
+  dq_joshVos_ev_obj_del: "tag delete dq_joshVos_obj"
+  dq_joshVos_ev_notify_start: "notify &bDaily Commission\n&fDeliver an invisible package to Josh Vos io:title"
+  dq_joshVos_ev_journal_start: "journal add dq_delivery_journal_joshVos"
+  dq_joshVos_ev_journal_del: "journal delete dq_delivery_journal_joshVos"
+  dq_joshVos_ev_folder: "folder dq_delivery_ev_folder_start,dq_joshVos_ev_obj_start,dq_joshVos_ev_notify_start,dq_joshVos_ev_journal_start"
+  dq_joshVos_ev_folder_done: "folder dq_delivery_ev_folder_done,dq_joshVos_ev_obj_del,dq_joshVos_ev_journal_del"
+  dq_joshVos_ev_folder_purge: "folder dq_joshVos_ev_obj_del,dq_joshVos_ev_journal_del"
+
+  dq_aquaKyrell_ev_obj_start: "tag add dq_aquaKyrell_obj"
+  dq_aquaKyrell_ev_obj_del: "tag delete dq_aquaKyrell_obj"
+  dq_aquaKyrell_ev_notify_start: "notify &bDaily Commission\n&fDeliver an invisible package to Aqua Kyrell io:title"
+  dq_aquaKyrell_ev_journal_start: "journal add dq_delivery_journal_aquaKyrell"
+  dq_aquaKyrell_ev_journal_del: "journal delete dq_delivery_journal_aquaKyrell"
+  dq_aquaKyrell_ev_folder: "folder dq_delivery_ev_folder_start,dq_aquaKyrell_ev_obj_start,dq_aquaKyrell_ev_notify_start,dq_aquaKyrell_ev_journal_start"
+  dq_aquaKyrell_ev_folder_done: "folder dq_delivery_ev_folder_done,dq_aquaKyrell_ev_obj_del,dq_aquaKyrell_ev_journal_del"
+  dq_aquaKyrell_ev_folder_purge: "folder dq_aquaKyrell_ev_obj_del,dq_aquaKyrell_ev_journal_del"
+
+  dq_fargusTapal_ev_obj_start: "tag add dq_fargusTapal_obj"
+  dq_fargusTapal_ev_obj_del: "tag delete dq_fargusTapal_obj"
+  dq_fargusTapal_ev_notify_start: "notify &bDaily Commission\n&fDeliver an invisible package to Fargus Tapal io:title"
+  dq_fargusTapal_ev_journal_start: "journal add dq_delivery_journal_fargusTapal"
+  dq_fargusTapal_ev_journal_del: "journal delete dq_delivery_journal_fargusTapal"
+  dq_fargusTapal_ev_folder: "folder dq_delivery_ev_folder_start,dq_fargusTapal_ev_obj_start,dq_fargusTapal_ev_notify_start,dq_fargusTapal_ev_journal_start"
+  dq_fargusTapal_ev_folder_done: "folder dq_delivery_ev_folder_done,dq_fargusTapal_ev_obj_del,dq_fargusTapal_ev_journal_del"
+  dq_fargusTapal_ev_folder_purge: "folder dq_fargusTapal_ev_obj_del,dq_fargusTapal_ev_journal_del"
+
+  dq_delivery_ev_random: "folder dq_joshVos_ev_folder,dq_aquaKyrell_ev_folder,dq_fargusTapal_ev_folder random:1"
+  dq_delivery_ev_purge: "folder dq_joshVos_ev_folder_purge,dq_aquaKyrell_ev_folder_purge,dq_fargusTapal_ev_folder_purge"

@@ -1,0 +1,30 @@
+conversations:
+  tutbot18:
+    quester: "Tutorial Droid"
+    first: "tutbot18_conv_01"
+    NPC_options:
+      tutbot18_conv_01:
+        text: "When trying to jump away from a planet, you may encounter a &c&lMass Shadow&r."
+        pointer: "tutbot18_conv_01_r"
+      tutbot18_conv_02:
+        text: "These are &bgravity wells&r, and you cannot initiate a hyperspace jump while inside them. Entering a gravity well while in hyperspace will &cdrop you out of hyperspace early&r."
+        pointer: "tutbot18_conv_02_r"
+      tutbot18_conv_03:
+        text: "Players can also &ccreate gravity wells&r using a gravity well generator on their starship to prevent others from jumping to hyperspace. &cWatch out for pirates!&r"
+        pointer: "tutbot18_conv_03_r"
+      tutbot18_conv_04:
+        text: "Please proceed to the next Tutorial Droid."
+        pointer: "tutbot18_conv_04_r"
+
+    player_options:
+      tutbot18_conv_01_r: 
+        text: "..."
+        pointer: "tutbot18_conv_02"
+      tutbot18_conv_02_r:
+        text: "..."
+        pointer: "tutbot18_conv_03"
+      tutbot18_conv_03_r:
+        text: "..."
+        pointer: "tutbot18_conv_04"
+      tutbot18_conv_04_r:
+        text: "..."

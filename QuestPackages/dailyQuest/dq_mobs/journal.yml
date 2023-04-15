@@ -1,0 +1,31 @@
+journal:
+  dq_mobs_journal_killZombie: >-
+    $journal_headline$
+      Kill &2%objective.dq_killZombie_obj.left% Zombies&0.
+
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mobs_journal_killSkeleton: >-
+    $journal_headline$
+      Kill &2%objective.dq_killSkeleton_obj.left% Skeletons&0.
+
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mobs_journal_killSpider: >-
+    $journal_headline$
+      Kill &2%objective.dq_killSpider_obj.left% Spiders&0.
+
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mobs_journal_killSlime: >-
+    $journal_headline$
+      Kill &2%objective.dq_killSlime_obj.left% Slimes&0.
+
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mobs_journal_killCreeper: >-
+    $journal_headline$
+      Kill &2%objective.dq_killCreeper_obj.left% Creepers&0.
+
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+  dq_mobs_journal_killHusk: >-
+    $journal_headline$
+      Kill &2%objective.dq_killHusk_obj.left% Husks&0.
+
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%

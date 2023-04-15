@@ -1,0 +1,18 @@
+journal:
+  dq_delivery_journal_joshVos: >-
+    $journal_headline$
+      Deliver an invisible package to &2Josh Vos&0 at &2[Vask: 859, 61, 1980]&0.
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+
+  dq_delivery_journal_aquaKyrell: >-
+    $journal_headline$
+      Deliver an invisible package to &2Aqua Kyrell&0 at &2[Krio: 4489, 36, 1314]&0.
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%
+
+  dq_delivery_journal_fargusTapal: >-
+    $journal_headline$
+      Deliver an invisible package to &2Fargus Tapal&0 at &2[Chandra: 6134, 81, 3974]&0.
+      
+      &2Rewards: &0$%math.calc:(200*point.commstreak.amount)+5000%

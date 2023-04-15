@@ -1,0 +1,8 @@
+events:
+  navbot_ev_tp_intro: "teleport 5727;127;2703;Ilius;90;0"
+  navbot_ev_tp_kit: "teleport 5679;123;2706;Ilius;90;0"
+  navbot_ev_tp_multiblocks: "teleport 5658;84;2667;Ilius;0;0"
+  navbot_ev_tp_ship_multiblocks_1: "teleport 5700;84;2718;Ilius;-90;0"
+  navbot_ev_tp_ship_multiblocks_2: "teleport 5748;89;2683;Ilius;0;0"
+  navbot_ev_tp_certbot: "teleport 5645;89;2739;Ilius;120;0"
+  navbot_ev_tp_landing_pads: "teleport 5604;88;2697;Ilius;135;0"

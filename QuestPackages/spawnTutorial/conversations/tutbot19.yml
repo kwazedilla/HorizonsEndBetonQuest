@@ -1,0 +1,30 @@
+conversations:
+  tutbot19:
+    quester: "Tutorial Droid"
+    first: "tutbot19_conv_01"
+    NPC_options:
+      tutbot19_conv_01:
+        text: "Starships are protected by &bparticle shields&r. Shields protect your ship from explosions caused by other ship weapons."
+        pointer: "tutbot19_conv_01_r"
+      tutbot19_conv_02:
+        text: "Shield health is indicated by the &bboss bar&r at the top of your screen when piloting a starship and &aslowly regenerate health&r."
+        pointer: "tutbot19_conv_02_r"
+      tutbot19_conv_03:
+        text: "If a shield's health is fully depleted, &cyour ship will start to take damage!&r"
+        pointer: "tutbot19_conv_03_r"
+      tutbot19_conv_04:
+        text: "Please proceed to the next Tutorial Droid."
+        pointer: "tutbot19_conv_04_r"
+
+    player_options:
+      tutbot19_conv_01_r: 
+        text: "..."
+        pointer: "tutbot19_conv_02"
+      tutbot19_conv_02_r:
+        text: "..."
+        pointer: "tutbot19_conv_03"
+      tutbot19_conv_03_r:
+        text: "..."
+        pointer: "tutbot19_conv_04"
+      tutbot19_conv_04_r:
+        text: "..."

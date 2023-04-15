@@ -1,0 +1,36 @@
+conversations:
+  tutbot06:
+    quester: "Tutorial Droid"
+    first: "tutbot06_conv_01"
+    NPC_options:
+      tutbot06_conv_01:
+        text: "In addition to the vanilla Minecraft ores, there are also custom ores."
+        pointer: "tutbot06_conv_01_r"
+      tutbot06_conv_02:
+        text: "Chetherite is used as fuel for starship hyperdrives."
+        pointer: "tutbot06_conv_02_r"
+      tutbot06_conv_03:
+        text: "Titanium and Aluminum are used as base materials for custom recipies, such as Power Gear and Blasters."
+        pointer: "tutbot06_conv_03_r"
+      tutbot06_conv_04:
+        text: "Uranium is used to power custom machines - more on that in the next few rooms."
+        pointer: "tutbot06_conv_04_r"
+      tutbot06_conv_05:
+        text: "Please proceed to the next Tutorial Droid."
+        pointer: "tutbot06_conv_05_r"
+
+    player_options:
+      tutbot06_conv_01_r: 
+        text: "..."
+        pointer: "tutbot06_conv_02"
+      tutbot06_conv_02_r: 
+        text: "..."
+        pointer: "tutbot06_conv_03"
+      tutbot06_conv_03_r:
+        text: "..."
+        pointer: "tutbot06_conv_04"
+      tutbot06_conv_04_r:
+        text: "..."
+        pointer: "tutbot06_conv_05"
+      tutbot06_conv_05_r:
+        text: "..."

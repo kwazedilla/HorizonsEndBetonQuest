@@ -1,0 +1,30 @@
+conversations:
+  tutbot14:
+    quester: "Tutorial Droid"
+    first: "tutbot14_conv_01"
+    NPC_options:
+      tutbot14_conv_01:
+        text: "Hyperspace is the main form of &btraveling large distances of space&r."
+        pointer: "tutbot14_conv_01_r"
+      tutbot14_conv_02:
+        text: "Starships enter hyperspace with a &bhyperdrive&r and &bnavigation computer (navcomp)&r multiblock."
+        pointer: "tutbot14_conv_02_r"
+      tutbot14_conv_03:
+        text: "To enter hyperspace, &aplace &5chetherite&a in each hopper of the hyperdrive&r. Then, run the command &c/jump [planet name]&r or &c/jump [x coordinate] [z coordinate]&r."
+        pointer: "tutbot14_conv_03_r"
+      tutbot14_conv_04:
+        text: "Please proceed to the next Tutorial Driod."
+        pointer: "tutbot14_conv_04_r"
+
+    player_options:
+      tutbot14_conv_01_r: 
+        text: "..."
+        pointer: "tutbot14_conv_02"
+      tutbot14_conv_02_r:
+        text: "..."
+        pointer: "tutbot14_conv_03"
+      tutbot14_conv_03_r:
+        text: "..."
+        pointer: "tutbot14_conv_04"
+      tutbot14_conv_04_r:
+        text: "..."

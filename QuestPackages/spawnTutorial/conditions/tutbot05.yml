@@ -1,0 +1,5 @@
+conditions:
+  tutbot05_cond_suit: tag tutbot05_tag_suit
+  tutbot05_cond_suit_active: objective tutbot05_put_on_suit
+  tutbot05_cond_shoot: tag tutbot05_tag_shoot
+  tutbot05_cond_shoot_active: objective tutbot05_shoot_targets

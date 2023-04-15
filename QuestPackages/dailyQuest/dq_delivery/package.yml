@@ -1,0 +1,9 @@
+npcs:
+  '101': "josh_vos"
+  '102': "aqua_kyrell"
+  '103': "fargus_tapal"
+
+variables:
+  quest_name: "Daily Commission"
+  quester_name: "comm_droid"
+  journal_headline: "$default.journal_head_prefix$$quest_name$$default.journal_head_suffix$"

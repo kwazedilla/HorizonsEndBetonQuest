@@ -1,0 +1,24 @@
+conversations:
+  tutbot03:
+    quester: "Tutorial Droid"
+    first: "tutbot03_conv_01"
+    NPC_options:
+      tutbot03_conv_01:
+        text: "Take a look at the menu on the right side of your screen. This is the Contacts bar, and it tells you what planet you are on, what direction you are looking, and any nearby players in active starships."
+        pointer: "tutbot03_conv_01_r"
+      tutbot03_conv_02:
+        text: "Right now, you are on the temperate world Ilius. Take a moment to familiarize yourself with the Contacts bar."
+        pointer: "tutbot03_conv_02_r"
+      tutbot03_conv_03:
+        text: "Please proceed outside the building and talk to the next Training Droid."
+        pointer: "tutbot03_conv_03_r"
+
+    player_options:
+      tutbot03_conv_01_r: 
+        text: "..."
+        pointer: "tutbot03_conv_02"
+      tutbot03_conv_02_r:
+        text: "..."
+        pointer: "tutbot03_conv_03"
+      tutbot03_conv_03_r:
+        text: "..."

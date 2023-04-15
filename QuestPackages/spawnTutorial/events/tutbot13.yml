@@ -1,0 +1,2 @@
+events:
+  tutbot13_ev_flying_link: 'command tellraw %player% {"text":"Click to go to the Ship Flying Tutorial","underlined":true,"color":"blue","clickEvent":{"action":"open_url","value":"https://youtu.be/sBDYr8Goz98"}}'

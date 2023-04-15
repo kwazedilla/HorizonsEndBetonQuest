@@ -1,0 +1,36 @@
+conversations:
+  tutbot17:
+    quester: "Tutorial Droid"
+    first: "tutbot17_conv_01"
+    NPC_options:
+      tutbot17_conv_01:
+        text: "A good way to earn money is to &bhaul cargo&r between trade outposts."
+        pointer: "tutbot17_conv_01_r"
+      tutbot17_conv_02:
+        text: "Purchase cargo crates from an &6Exporter&r at a &btrade outpost (located in white territories ending in -ost)&r or &aplayer-made trade cities&r."
+        pointer: "tutbot17_conv_02_r"
+      tutbot17_conv_03:
+        text: "Place the cargo crates on &asticky pistons&r within your ship, &eredetect&r, and &bfly to the destination outpost or city&r."
+        pointer: "tutbot17_conv_03_r"
+      tutbot17_conv_04:
+        text: "Activate your ship's sticky pistons, collect the cargo crates, and &bturn them into the outpost/city's &6Importer&r to earn credits."
+        pointer: "tutbot17_conv_04_r"
+      tutbot17_conv_05:
+        text: "Please proceed to the next Tutorial Droid."
+        pointer: "tutbot17_conv_05_r"
+
+    player_options:
+      tutbot17_conv_01_r: 
+        text: "..."
+        pointer: "tutbot17_conv_02"
+      tutbot17_conv_02_r:
+        text: "..."
+        pointer: "tutbot17_conv_03"
+      tutbot17_conv_03_r:
+        text: "..."
+        pointer: "tutbot17_conv_04"
+      tutbot17_conv_04_r:
+        text: "..."
+        pointer: "tutbot17_conv_05"
+      tutbot17_conv_05_r:
+        text: "..."

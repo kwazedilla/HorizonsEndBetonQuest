@@ -1,0 +1,7 @@
+objectives:
+  dq_killZombie_obj: "mobkill ZOMBIE 5 notify event:dq_killZombie_ev_folder_done"
+  dq_killSkeleton_obj: "mobkill SKELETON 5 notify event:dq_killSkeleton_ev_folder_done"
+  dq_killSpider_obj: "mobkill SPIDER 5 notify event:dq_killSpider_ev_folder_done"
+  dq_killSlime_obj: "mobkill SLIME 5 notify event:dq_killSlime_ev_folder_done"
+  dq_killCreeper_obj: "mobkill CREEPER 5 notify event:dq_killCreeper_ev_folder_done"
+  dq_killHusk_obj: "mobkill HUSK 5 notify event:dq_killHusk_ev_folder_done"

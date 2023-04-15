@@ -1,0 +1,36 @@
+npcs:
+  '94': "comm_droid"
+  '95': "comm_droid"
+  '96': "comm_droid"
+  '97': "comm_droid"
+  '98': "comm_droid"
+  '99': "comm_droid"
+  '100': "comm_droid"
+  '104': "comm_droid"
+
+variables:
+    quest_name: "Daily Commission"
+    quester_name: "comm_droid"
+    journal_headline: "$default.journal_head_prefix$$quest_name$$default.journal_head_suffix$"
+
+journal_main_page:
+    can_started:
+        priority: 12
+        text: '  $default.journal_status_1$$quest_name$'
+        conditions: '!dailyQuest_cond_start,!dailyQuest_cond_lastquest'
+    started:
+        priority: 11
+        text: '  $default.journal_status_2$$quest_name$'
+        conditions: 'dailyQuest_cond_start,!dailyQuest_cond_lastquest'
+    finished:
+        priority: 13
+        text: '  $default.journal_status_3$$quest_name$'
+        conditions: 'dailyQuest_cond_lastquest'
+
+
+#schedules:
+#  startDailyQuest:
+#    type: realtime-cron
+#    time: '* * * * *'
+#    events: dailyQuest_ev_journal_update
+#    catchup: one

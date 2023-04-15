@@ -1,0 +1,55 @@
+variables:
+    # Colors for the journal configuration
+    journal_color_head: '&9'
+    journal_color_head_deco: '&1'
+    journal_color_text: '&0'
+    journal_status_1: '&2'
+    journal_status_2: '&6'
+    journal_status_3: '&8'
+    journal_status_4: '&7'
+    #The diffrent quest states
+    journal_status_1_name: $journal_status_1$Can be Started
+    journal_status_2_name: $journal_status_2$Started
+    journal_status_3_name: $journal_status_3$Finished/Cooldown
+    journal_status_4_name: $journal_status_4$Locked
+    #Formatting for headlines
+    journal_head_prefix_text: '-'
+    journal_head_suffix_text: '-'
+    journal_head_prefix: $default.journal_color_head_deco$$default.journal_head_prefix_text$$default.journal_color_head$
+    journal_head_suffix: $default.journal_color_head_deco$$default.journal_head_suffix_text$$default.journal_color_text$
+    #Misc colors for use in quests
+    color_highlight: '&2'
+    color_npc: '&9'
+    color_action: '&c'
+journal_main_page:
+    legende:
+        priority: 0
+        text: >-
+            $journal_head_prefix$Quest Status$journal_head_suffix$
+              $journal_status_4_name$
+              $journal_status_1_name$
+              $journal_status_2_name$
+              $journal_status_3_name$
+
+            $journal_head_prefix$Quest List$journal_head_suffix$
+    quests:
+        priority: 5
+        text: >-
+            $journal_head_prefix$Repeatable Quests$journal_head_suffix$
+    #dailyquests:
+    #    priority: 10
+    #    text: >-
+
+notifications:
+    # A fixed format for a notification, when a quest is started
+    quest_started:
+        io: actionbar
+    # new_journal_entry is a fixed plugin notification. This configures the notification for new journal entries
+    new_journal_entry:
+        io: actionbar
+    # A fixed format for a notification, when a quest is finished
+    quest_finished:
+        io: actionbar
+    # A fixed format for a notification, when a quest is cancelled
+    quest_cancelled:
+        io: actionbar

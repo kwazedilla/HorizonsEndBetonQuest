@@ -1,0 +1,24 @@
+events:
+  dailyQuest_ev_start: "tag add dailyQuest_start"
+  dailyQuest_ev_start_del: "tag del dailyQuest_start"
+  dailyQuest_ev_done: "tag add dailyQuest_done"
+  dailyQuest_ev_done_del: "tag del dailyQuest_done"
+  dailyQuest_ev_streak_inc: "point commstreak 1 conditions:!dailyQuest_cond_maxstreak,dailyQuest_cond_firstquest"
+  dailyQuest_ev_streak_reset: "point commstreak *0"
+  dailyQuest_ev_purge: "folder dailyQuest_ev_start_del,dailyQuest-dq_mobs.dq_mobs_ev_purge,dailyQuest-dq_mining.dq_mining_ev_purge"
+
+  dailyQuest_ev_obj_delay_start: "objective start dailyQuest_obj_delay conditions:!dailyQuest_cond_done"
+  dailyQuest_ev_obj_random: "folder dailyQuest-dq_mining.dq_mining_ev_random,dailyQuest-dq_mobs.dq_mobs_ev_random,dailyQuest-dq_delivery.dq_delivery_ev_random random:1"
+
+  dailyQuest_ev_notify_done: "notify &bDaily Commission\n&aQuest Complete io:title"
+  dailyQuest_ev_journal_update: "journal update"
+
+  dailyQuest_ev_money: "money %math.calc:(200*point.commstreak.amount)+5000% notify"
+
+  dailyQuest_ev_maxquest_reset: "point maxquest *0"
+  dailyQuest_ev_maxquest_give: "point maxquest 3"
+  dailyQuest_ev_maxquest_inc: "point maxquest 1"
+  dailyQuest_ev_maxquest_dailyreset: "folder dailyQuest_ev_maxquest_reset"
+
+  dailyQuest_ev_comms_inc: "point comms 1"
+  dailyQuest_ev_comms_raeset: "point comms *0"

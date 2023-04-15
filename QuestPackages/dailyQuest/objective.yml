@@ -1,0 +1,2 @@
+objectives:
+  dailyQuest_obj_delay: "delay 1380 event:dailyQuest_ev_maxquest_reset,dailyQuest_ev_purge,dailyQuest_ev_done_del,dailyQuest_ev_start_del,dailyQuest_ev_journal_update" #default 1380 minutes

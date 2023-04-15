@@ -1,0 +1,13 @@
+#npc_holograms:
+#  check_interval: 100
+#  follow: false
+#  disabled: false
+#
+#  # Hologram Settings
+#  quest_available:
+#    lines:
+#      - "Some text!"
+#    vector: 0;3;0
+#    conditions: "!cheth_collector_cond_acc"
+#    npcs:
+#      - 51

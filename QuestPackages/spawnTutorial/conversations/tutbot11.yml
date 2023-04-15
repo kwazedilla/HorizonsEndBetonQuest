@@ -1,0 +1,24 @@
+conversations:
+  tutbot11:
+    quester: "Tutorial Droid"
+    first: "tutbot11_conv_01"
+    NPC_options:
+      tutbot11_conv_01:
+        text: "The clock you received in your start kit is your &estarship controller&r. This is used to pilot starships."
+        pointer: "tutbot11_conv_01_r"
+      tutbot11_conv_02:
+        text: "The jukebox behind me is the &bstarship computer&r, the brain of the ship. To use a starship, you must first &edetect&r it."
+        pointer: "tutbot11_conv_02_r"
+      tutbot11_conv_03:
+        text: "Proceed to the next Tutorial Droid to find out how."
+        pointer: "tutbot11_conv_03_r"
+
+    player_options:
+      tutbot11_conv_01_r: 
+        text: "..."
+        pointer: "tutbot11_conv_02"
+      tutbot11_conv_02_r:
+        text: "..."
+        pointer: "tutbot11_conv_03"
+      tutbot11_conv_03_r:
+        text: "..."

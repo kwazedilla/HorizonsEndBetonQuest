@@ -1,0 +1,2 @@
+events:
+  certbot_ev_tutorial_done: "tag add tutorial_done"
