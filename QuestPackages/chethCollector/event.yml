@@ -1,0 +1,16 @@
+events:
+  evAcc: "tag add tagAcc"
+  evObjStart: "objective start objMineCheth"
+  evObjEnd: "objective complete objMineCheth" # THIS EVENT CAUSES INFINITE LOOP!!!
+  evDone: "tag add tagDone"
+
+  evReward: "give chetherite:32"
+
+  evNotifyStart: "notify &5Chetherite Collector\n&fCollect &b4&f Chetherite io:title"
+  evNotifyReturn: "notify &5Chetherite Collector\n&fReturn to &bFlynn Bart io:title"
+  evNotifyDone: "notify &5Chetherite Collector\n&aQuest Complete io:title"
+
+  evJournalStart: "journal add journalStart"
+  evJournalStartDel: "journal delete journalStart"
+  evJournalReturn: "journal add journalReturn"
+  evJournalReturnDel: "journal delete journalReturn"

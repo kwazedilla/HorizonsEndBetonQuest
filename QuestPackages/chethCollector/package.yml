@@ -1,9 +1,9 @@
 npcs:
-  '40': "flynn_bart"
+  '40': "flynnBart"
 
 variables:
     quest_name: "Cheth Collector"
-    quester_name: "flynn_bart"
+    quester_name: "flynnBart"
     journal_headline: "$default.journal_head_prefix$$quest_name$$default.journal_head_suffix$"
 
 journal_main_page:

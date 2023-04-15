@@ -1,0 +1,4 @@
+conditions:
+  condAcc: tag tagAcc
+  condActive: objective objMineCheth
+  condDone: tag tagDone

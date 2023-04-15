@@ -1,10 +1,10 @@
 journal:
-  journal_start: >-
+  journalStart: >-
     $journal_headline$
       Collect &1four chetherite&0 from Luxiterna. &4You must mine this ore by hand. 
       
       &2Rewards: &032 Chetherite
-  journal_return: >-
+  journalReturn: >-
     $journal_headline$
       Return to &9Flynn Bart&0 &2[Ilius 5602, 80, 2709]&0 to claim your rewards. 
       
