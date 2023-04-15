@@ -22,7 +22,7 @@ npcInteractionLimit: 1000
 default_conversation_IO: tellraw
 conversation_colors:
   npc: gold,bold
-  player: green,bold
+  player: dark_gray,bold
   text: white,italic
   answer: gray
   number: gray,bold
