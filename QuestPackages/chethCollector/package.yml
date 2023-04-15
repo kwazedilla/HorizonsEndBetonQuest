@@ -20,3 +20,10 @@ journal_main_page:
         text: '  $default.journal_status_3$$quest_name$'
         conditions: 'condDone'
 
+cancel:
+  chethCollector:
+    name: "Cheth Collector"
+    conditions: "condAcc, !condDone"
+    objectives: "objMineCheth"
+    tags: "tagAcc"
+    journal: "journalStart, journalReturn"
