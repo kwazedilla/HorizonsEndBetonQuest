@@ -17,14 +17,14 @@ default_journal_slot: -1
 max_npc_distance: 5.3
 citizens_npcs_by_name: false
 acceptNPCLeftClick: false
-npcInteractionLimit: 500
-default_conversation_IO: menu,chest
+npcInteractionLimit: 1000
+default_conversation_IO: tellraw
 conversation_colors:
-  npc: dark_red
+  npc: yellow
   player: dark_green
-  text: green,italic
+  text: white,italic
   answer: gray
-  number: yellow
+  number: gray
   option: aqua
 conversation_IO_config:
   chest:
@@ -33,20 +33,20 @@ conversation_IO_config:
 default_interceptor: packet,simple
 default_hologram: DecentHolograms,HolographicDisplays
 display_chat_after_conversation: true
-combat_delay: 10
+combat_delay: 1
 notify_pullback: true
 remove_items_after_respawn: true
 quest_items_unbreakable: true
 player_hider_check_interval: 20
 npc_hider_check_interval: 100
 sounds:
-  start: ENTITY_VILLAGER_AMBIENT
-  end: ENTITY_VILLAGER_YES
+  start: BLOCK_NOTE_BLOCK_BIT
+  end: BLOCK_NOTE_BLOCK_BELL
   journal: ENTITY_BAT_TAKEOFF
   update: false
   full: false
 cmd_blacklist:
-- spawn
+  - spawn
 hook:
   citizens: true
   mythicmobs: true
@@ -77,12 +77,12 @@ hook:
   aureliumskills: true
   fake-block: true
 journal:
-  chars_per_line: 19
+  chars_per_line: 20
   lines_per_page: 13
-  one_entry_per_page: false
+  one_entry_per_page: true
   reversed_order: true
   hide_date: false
-  full_main_page: false
+  full_main_page: true
   show_in_backpack: true
   lock_default_journal_slot: false
   give_on_respawn: false
@@ -100,7 +100,7 @@ debug:
 download:
   pull_requests: false
   repo_whitelist:
-  - BetonQuest/Quest-Tutorials
+    - BetonQuest/Quest-Tutorials
 items:
   backpack:
     previous_button: ''
