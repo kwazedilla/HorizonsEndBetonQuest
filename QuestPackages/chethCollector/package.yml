@@ -23,7 +23,7 @@ journal_main_page:
 cancel:
   chethCollector:
     name: "Cheth Collector"
-    conditions: "condAcc, !condDone"
+    conditions: "condAcc,!condDone"
     objectives: "objMineCheth"
     tags: "tagAcc"
-    journal: "journalStart, journalReturn"
+    journal: "journalStart,journalReturn"

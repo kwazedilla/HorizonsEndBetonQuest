@@ -1,3 +1,4 @@
+# If there is a Permission Denied error in the console, chmod +777 this file
 configVersion: 2.0.0-CONFIG-5 # Don't change this! The plugin's automatic config updater handles it.
 mysql:
   enabled: false
