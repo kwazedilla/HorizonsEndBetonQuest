@@ -1,5 +1,4 @@
-default_hologram: DecentHolograms,HolographicDisplays
-version: v61
+configVersion: 2.0.0-CONFIG-5 # Don't change this! The plugin's automatic config updater handles it.
 mysql:
   enabled: false
   host: ''
@@ -17,39 +16,38 @@ update:
 default_journal_slot: -1
 max_npc_distance: 5.3
 citizens_npcs_by_name: false
-acceptNPCLeftClick: true
-npcInteractionLimit: 1000
-default_conversation_IO: tellraw
+acceptNPCLeftClick: false
+npcInteractionLimit: 500
+default_conversation_IO: menu,chest
 conversation_colors:
-  npc: yellow
+  npc: dark_red
   player: dark_green
-  text: white,italic
+  text: green,italic
   answer: gray
-  number: gray
+  number: yellow
   option: aqua
 conversation_IO_config:
   chest:
     show_number: true
     show_npc_text: true
 default_interceptor: packet,simple
+default_hologram: DecentHolograms,HolographicDisplays
 display_chat_after_conversation: true
-combat_delay: 1
+combat_delay: 10
 notify_pullback: true
 remove_items_after_respawn: true
 quest_items_unbreakable: true
 player_hider_check_interval: 20
 npc_hider_check_interval: 100
 sounds:
-  start: BLOCK_NOTE_BLOCK_BIT
-  end: BLOCK_NOTE_BLOCK_BELL
+  start: ENTITY_VILLAGER_AMBIENT
+  end: ENTITY_VILLAGER_YES
   journal: ENTITY_BAT_TAKEOFF
   update: false
   full: false
 cmd_blacklist:
 - spawn
 hook:
-  fake-block: true
-  decentholograms: true
   citizens: true
   mythicmobs: true
   vault: true
@@ -66,6 +64,7 @@ hook:
   shopkeepers: true
   placeholderapi: true
   holographicdisplays: true
+  decentholograms: true
   worldedit: true
   fastasyncworldedit: true
   protocollib: true
@@ -76,17 +75,18 @@ hook:
   mmoitems: true
   luckperms: true
   aureliumskills: true
+  fake-block: true
 journal:
-  custom_model_data: -1
-  chars_per_line: 20
+  chars_per_line: 19
   lines_per_page: 13
-  one_entry_per_page: true
+  one_entry_per_page: false
   reversed_order: true
   hide_date: false
-  full_main_page: true
+  full_main_page: false
   show_in_backpack: true
   lock_default_journal_slot: false
   give_on_respawn: false
+  custom_model_data: -1
 journal_colors:
   date:
     day: 9
@@ -95,7 +95,7 @@ journal_colors:
   text: 0
 date_format: dd.MM.yyyy HH:mm
 debug:
-  enabled: true
+  enabled: false
   history_in_minutes: 10
 download:
   pull_requests: false
@@ -107,23 +107,3 @@ items:
     next_button: ''
     cancel_button: DEFAULT
     compass_button: DEFAULT
-menu_conv_io:
-  line_length: 50
-  refresh_delay: 180
-  npc_wrap: '&l &r'
-  npc_text: '&l &r&f{npc_text}'
-  npc_text_reset: '&f'
-  option_wrap: '&r&l &l &l &l &r'
-  option_text: '&l &l &l &l &r&8[ &b{option_text}&8 ]'
-  option_text_reset: '&b'
-  option_selected: '&l &r &r&7»&r &8[ &f&n{option_text}&8 ]'
-  option_selected_reset: '&f'
-  option_selected_wrap: '&r&l &l &l &l &r&f&n'
-  control_select: left_click,jump
-  control_cancel: sneak
-  control_move: scroll,move
-  npc_name_type: chat
-  npc_name_align: center
-  npc_name_format: '&e{npc_name}&r'
-  npc_name_newline_separator: true
-configVersion: 2.0.0-CONFIG-5 # Don't change this! The plugin's automatic config updater handles it.

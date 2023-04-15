@@ -1,62 +1,4 @@
-pt-pt:
-  items_to_enchant: '&2{1} items left to enchant'
-  level_to_gain: '&2{1} levels left to gain'
-  conversation_prefix: '&2[&9{1}&2] '
-  conversation_start: '&e====&bA conversa com {1}&b começou.&e===='
-  conversation_end: '&e====&bA conversa com {1}&b terminou.&e===='
-  no_permission: '&cNão tens permissão para isso.'
-  new_journal_entry: '&e*&bO teu diario foi atualizado.&e*'
-  journal_title: Diario
-  journal_lore: É o teu diario, contem informação de todas as tuas missões.
-  quest_item: '&2Item de missão'
-  backpack_title: Mochila de missões
-  previous: '&2Anterior'
-  next: '&2Seguinte'
-  inventory_full: '&e*&bO teu inventario está cheio.&e*'
-  changelog: '&f[BetonQuest]: &e*&bNovo changelog disponivel na pasta do plugin plugin.
-    Leia as mudanças e apague ou renomeie o ficheiro para remover esta mensagem!&e*'
-  pullback: '&cDeves terminar a conversa.'
-  items_given: '&2Recebido {1}&2 x{2}'
-  items_taken: '&2Perdido {1}&2 x{2}'
-  money_given: '&2Recebido {1} {2}'
-  money_taken: '&2Perdido {1} {2}'
-  point_given: '&2Tu recebeste {1} pontos para {2}'
-  point_taken: '&2Tu perdeste {1} pontos para {2}'
-  point_multiplied: '&2Os teus pontos {2} foram multiplicados por {1}'
-  blocks_to_break: '&2{1} blocos restantes para quebrar'
-  blocks_to_place: '&2{1} blocos restantes para colocar'
-  mobs_to_kill: '&2{1} mobs restantes para matar'
-  mobs_to_click: '&2{1} mobs restantes para clicar'
-  players_to_kill: '&2{1} jogadores restantes para matar'
-  fish_to_catch: '&2{1} peixes restantes para pescar'
-  sheep_to_shear: '&2{1} ovelhas restantes para aparar'
-  potions_to_brew: '&2{1} poções restantes para criar'
-  animals_to_breed: '&2{1} animais restantes para procriar'
-  items_to_pickup: '&2{1} itens restantes para coletar'
-  items_to_smelt: '&2{1} itens restantes para fundir'
-  items_to_craft: '&2{1} items restantes para criar'
-  busy: '&cNão podes falar enquanto lutas!'
-  quest_canceled: '&2Missão {1}&2 cancelada!'
-  cancel: '&cCancelar a missão'
-  cancel_page: Cancelar missões
-  compass: '&cObjetivos da bússola'
-  compass_page: Escolhe um objetivo
-  command_blocked: '&cNão podes usar este comando durante uma conversa.'
-  language_changed: '&2Idioma foi alterado!'
-  language_missing: '&cEspecifica um idioma'
-  language_not_exist: '&cEsse idioma não está definido, opções possiveis: '
-  days: dias
-  hours: horas
-  minutes: minutos
-  seconds: segundos
-  and: e
-  password: 'password: '
-  condition_variable_met: sim
-  condition_variable_not_met: não
-  chest_occupied: Este bau já se encontra em uso
 pl:
-  items_to_enchant: '&2{1} items left to enchant'
-  level_to_gain: '&2{1} levels left to gain'
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bRozpoczales rozmowe z {1}&b!&e===='
   conversation_end: '&e====&bZakonczyles rozmowe z {1}&b!&e===='
@@ -94,6 +36,8 @@ pl:
   items_to_pickup: '&2Pozostalo {1} przedmiotow do podniesienia'
   items_to_smelt: '&2{1} items left to smelt' # TODO: missing translation
   items_to_craft: '&2{1} items left to craft' # TODO: missing translation
+  items_to_enchant: '&2{1} items left to enchant' # TODO: missing translation
+  level_to_gain: '&2{1} levels left to gain' # TODO: missing translation
   busy: '&cNie mozesz rozmawiac w trakcie walki.'
   quest_canceled: '&2Zadanie {1}&2 anulowane!'
   cancel: '&cAnuluj zadanie'
@@ -117,8 +61,6 @@ pl:
   condition_variable_not_met: 'no' # TODO: missing translation
   chest_occupied: This chest is already in use # TODO: missing translation
 en:
-  items_to_enchant: '&2{1} items left to enchant'
-  level_to_gain: '&2{1} levels left to gain'
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bConversation with {1}&b started!&e===='
   conversation_end: '&e====&bConversation with {1}&b finished!&e===='
@@ -155,6 +97,8 @@ en:
   items_to_pickup: '&2{1} items left to pickup'
   items_to_smelt: '&2{1} items left to smelt'
   items_to_craft: '&2{1} items left to craft'
+  items_to_enchant: '&2{1} items left to enchant'
+  level_to_gain: '&2{1} levels left to gain'
   busy: '&cYou can''t talk while fighting.'
   quest_canceled: '&2Quest {1}&2 canceled!'
   cancel: '&cCancel a Quest'
@@ -173,14 +117,11 @@ en:
   minutes_singular: minute
   seconds: seconds
   seconds_singular: second
-  
   password: 'password: '
   condition_variable_met: 'yes'
   condition_variable_not_met: 'no'
   chest_occupied: This chest is already in use
 de:
-  items_to_enchant: '&2Noch {1} Dinge zu verzaubern'
-  level_to_gain: '&2Noch {1} Level zu sammeln'
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bGespräch mit {1}&b begonnen!&e===='
   conversation_end: '&e====&bGespräch mit {1}&b beendet!&e===='
@@ -219,10 +160,12 @@ de:
   items_to_pickup: '&2Noch {1} Dinge einzusammeln'
   items_to_smelt: '&2Noch {1} Dinge zu schmelzen'
   items_to_craft: '&2Noch {1} Dinge herzustellen'
+  items_to_enchant: '&2Noch {1} Dinge zu verzaubern'
+  level_to_gain: '&2Noch {1} Level zu sammeln'
   busy: '&cDu kannst dich nicht während eines Kampfes unterhalten.'
   quest_canceled: '&2Quest {1}&2 abgebrochen!'
   cancel: '&cEine Quest abbrechen'
-  cancel_page: '&cWähle welche Quest du abbrichst'
+  cancel_page: Wähle welche Quest du abbrichst
   compass: Kompassziel verwalten
   compass_page: Wähle Ziel
   command_blocked: '&cDu kannst diesen Befehl nicht benutzen, solange du in einem
@@ -243,8 +186,6 @@ de:
   condition_variable_not_met: nein
   chest_occupied: Die Truhe wird bereits benutzt
 fr:
-  items_to_enchant: '&2{1} items left to enchant'
-  level_to_gain: '&2{1} levels left to gain'
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bLa conversation avec {1}&b est engagée!&e===='
   conversation_end: '&e====&bLa conversation avec {1}&b est terminée!&e===='
@@ -256,9 +197,10 @@ fr:
   backpack_title: Sac à dos
   previous: '&2Précédent'
   next: '&2Suivant'
-  inventory_full_backpack: '&e*&bVotre inventaire est plein! L''objet était posé dans
-    votre sac á dos.&e*'
-  inventory_full_drop: '&e*&bVotre inventaire est plein! L''objet était posé au plancher.&e*'
+  inventory_full_backpack: '&e*&bVotre inventaire est plein! L''objet a été placé
+    dans votre sac á dos.&e*'
+  inventory_full_drop: '&e*&bVotre inventaire est plein! L''objet a été déposé au
+    sol.&e*'
   changelog: '&f[BetonQuest]: &e*&bLa liste des modifications est dans le repertoire
     du plugin. Lisez bien ce fichier des changements puis supprimez le pour masquer
     ce message!&e*'
@@ -282,6 +224,8 @@ fr:
   items_to_pickup: '&2{1} objets restant à ramasser'
   items_to_smelt: '&2{1} objets restant à cuire'
   items_to_craft: '&2{1} objets restant à fabriquer'
+  items_to_enchant: '&2{1} objets restant à enchanter'
+  level_to_gain: '&2{1} niveaux restant à gagner'
   busy: '&cVous ne pouvez pas parler pendant un combat.'
   quest_canceled: '&2Quête {1}&2 annulée!'
   cancel: '&cAnnuler cette quête'
@@ -303,10 +247,8 @@ fr:
   password: 'mot de passe : '
   condition_variable_met: oui
   condition_variable_not_met: non
-  chest_occupied: Ce coffre est déjà en cours d''utilisation # TODO: missing translation
+  chest_occupied: Ce coffre est déjà en cours d'utilisation
 cn:
-  items_to_enchant: '&2{1} items left to enchant'
-  level_to_gain: '&2{1} levels left to gain'
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&b与{1}&b对话中&e===='
   conversation_end: '&e====&b与{1}&b的对话已经结束&e===='
@@ -318,56 +260,54 @@ cn:
   backpack_title: 背包
   previous: '&2前一个'
   next: '&2下一个'
-  inventory_full_backpack: '&e*&b\u4f60\u7684\u80cc\u5305\u5df2\u6ee1! The item was
-    moved to your backpack.&e*' # TODO: missing translation
-  inventory_full_drop: '&e*&b\u4f60\u7684\u80cc\u5305\u5df2\u6ee1! The item was dropped
-    on the ground.&e*' # TODO: missing translation
+  inventory_full_backpack: '&e*&b你的仓库满了!这个物品放到了你的背包里&e*'
+  inventory_full_drop: '&e*&b你的仓库满了!这个物品掉落在地上。&e*'
   changelog: '&f[BetonQuest]: &e*&b新版本的更新内容已经生成在插件文件夹下!将它删除就不会再看到这个信息了&e*'
   pullback: '&c你还在对话中!&a(输入1看看聊天栏有没有反应吧)'
   items_given: '&2你获得了 {2}个{1}'
   items_taken: '&2你失去了 {2}个{1}'
-  money_given: '&2Received {1} {2}' # TODO: missing translation
-  money_taken: '&2Lost {1} {2}' # TODO: missing translation
-  point_given: '&2You received {1} points to {2}' # TODO: missing translation
-  point_taken: '&2You lost {1} points to {2}' # TODO: missing translation
-  point_multiplied: '&2Your points {2} are multiplied by {1}' # TODO: missing translation
+  money_given: '&2收到 {1} {2}'
+  money_taken: '&2丢失 {1} {2}'
+  point_given: '&2你收到了 {1} 点券，来自 {2}'
+  point_taken: '&2你花费了 {1} 点券，在 {2}'
+  point_multiplied: '&2你的点券 {2} 被乘以 {1}'
   blocks_to_break: '&2还需要再破坏{1}个方块'
   blocks_to_place: '&2还需要再放置{1}个方块'
   mobs_to_kill: '&2还需要杀死{1}个怪物'
-  mobs_to_click: '&2{1} mobs left to click' # TODO: missing translation
-  players_to_kill: '&2{1} players left to kill'
+  mobs_to_click: '&2{1} 左键怪物'
+  players_to_kill: '&2{1} 个玩家需要杀死'
   fish_to_catch: '&2还需要钓 {1} 条鱼'
   sheep_to_shear: '&2还需要剪 {1} 只羊的羊毛'
   potions_to_brew: '&2还需要制作 {1} 枚药水'
-  animals_to_breed: '&2{1} animals left to breed'
-  items_to_pickup: '&2{1} items left to pickup' # TODO: missing translation
-  items_to_smelt: '&2{1} items left to smelt' # TODO: missing translation
-  items_to_craft: '&2{1} items left to craft' # TODO: missing translation
+  animals_to_breed: '&2{1} 只动物需要繁殖'
+  items_to_pickup: '&2{1} 个物品需要拾取'
+  items_to_smelt: '&2{1} 个物品需要熔炼'
+  items_to_craft: '&2{1} 个物品需要制作'
+  items_to_enchant: '&2{1} items left to enchant' # TODO: missing translation
+  level_to_gain: '&2{1} levels left to gain' # TODO: missing translation
   busy: '&c你还在战斗中'
   quest_canceled: '&2任务 {1}&2 已取消!'
   cancel: '&c取消任务'
   cancel_page: 正在取消任务
   compass: '&c指南针正在指向: '
-  compass_page: \u8bf7\u9009\u62e9\u4f60\u7684\u76ee\u6807
+  compass_page: 选择目标
   command_blocked: '&c你不能在任务中使用该命令.'
   language_changed: '&2您的语言已更换!'
   language_missing: '&c请注明语言的名字'
   language_not_exist: '&c这个语言不存在，可用的语言有：'
   days: 天
-  days_singular: 天 # TODO: missing translation
+  days_singular: 天
   hours: 小时
-  hours_singular: 小时 # TODO: missing translation
+  hours_singular: 小时
   minutes: 分钟
-  minutes_singular: 分钟 # TODO: missing translation
+  minutes_singular: 分钟
   seconds: 秒
-  seconds_singular: 秒 # TODO: missing translation
+  seconds_singular: 秒
   password: '密码: '
-  condition_variable_met: 'yes' # TODO: missing translation
-  condition_variable_not_met: 'no' # TODO: missing translation
-  chest_occupied: This chest is already in use # TODO: missing translation
+  condition_variable_met: 是
+  condition_variable_not_met: 否
+  chest_occupied: 这个箱子已经在使用了
 es:
-  items_to_enchant: '&2{1} items left to enchant'
-  level_to_gain: '&2{1} levels left to gain'
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bLa conversacion con {1}&b ha comenzado.&e===='
   conversation_end: '&e====&bLa conversacion con {1}&b ha terminado.&e===='
@@ -405,6 +345,8 @@ es:
   items_to_pickup: '&2{1} objetos restantes para recoger'
   items_to_smelt: '&2{1} objetos restantes para fundir'
   items_to_craft: '&2{1} objetos restantes para crear'
+  items_to_enchant: '&2{1} items left to enchant' # TODO: missing translation
+  level_to_gain: '&2{1} levels left to gain' # TODO: missing translation
   busy: '&cNo puedes hablar mientras luchas!'
   quest_canceled: '&2Mision {1}&2 cancelada!'
   cancel: '&cCancelar la mision'
@@ -428,8 +370,6 @@ es:
   condition_variable_not_met: 'no'
   chest_occupied: This chest is already in use # TODO: missing translation
 nl:
-  items_to_enchant: '&2{1} items left to enchant'
-  level_to_gain: '&2{1} levels left to gain'
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bGesprek met {1}&b begonnen!&e===='
   conversation_end: '&e====&bGesprek met {1}&b afgerond!&e===='
@@ -466,6 +406,8 @@ nl:
   items_to_pickup: '&2{1} items over om op te pakken'
   items_to_smelt: '&2{1} items over om te smelten'
   items_to_craft: '&2{1} items over om te craften'
+  items_to_enchant: '&2{1} items left to enchant' # TODO: missing translation
+  level_to_gain: '&2{1} levels left to gain' # TODO: missing translation
   busy: '&cJe kunt niet praten tijdens het vechten.'
   quest_canceled: '&2Quest {1}&2 geannuleerd!'
   cancel: '&cAnnuleer de quest'
@@ -489,8 +431,6 @@ nl:
   condition_variable_not_met: nee
   chest_occupied: This chest is already in use # TODO: missing translation
 it:
-  items_to_enchant: '&2{1} items left to enchant'
-  level_to_gain: '&2{1} levels left to gain'
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bConversazione con {1}&b iniziata!&e===='
   conversation_end: '&e====&bConversazione con {1}&b finita!&e===='
@@ -528,6 +468,8 @@ it:
   items_to_pickup: '&2{1} oggetti rimasti da raccogliere'
   items_to_smelt: '&2{1} oggetti rimasti da cuocere'
   items_to_craft: '&2{1} oggetti da creare'
+  items_to_enchant: '&2{1} items left to enchant' # TODO: missing translation
+  level_to_gain: '&2{1} levels left to gain' # TODO: missing translation
   busy: '&cNon puoi parlare mentre stai combattendo.'
   quest_canceled: '&2Quest {1}&2 annullata!'
   cancel: '&cAnnulla quest'
@@ -549,10 +491,8 @@ it:
   password: 'password: '
   condition_variable_met: si
   condition_variable_not_met: 'no'
-  chest_occupied: This chest is already in use # TODO: missing translation
+  chest_occupied: Questo baule è già in uso
 hu:
-  items_to_enchant: '&2{1} items left to enchant'
-  level_to_gain: '&2{1} levels left to gain'
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bBeszélgetés a következővel {1}&b elkezdve!&e===='
   conversation_end: '&e====&bBeszélgetés a következővel {1}&b befejezve!&e===='
@@ -591,6 +531,8 @@ hu:
   items_to_pickup: '&2{1} items left to pickup' # TODO: missing translation
   items_to_smelt: '&2{1} items left to smelt' # TODO: missing translation
   items_to_craft: '&2{1} items left to craft' # TODO: missing translation
+  items_to_enchant: '&2{1} items left to enchant' # TODO: missing translation
+  level_to_gain: '&2{1} levels left to gain' # TODO: missing translation
   busy: '&cNem harcolhat harc közben.'
   quest_canceled: '&2Küldetés {1}&2 törölve!'
   cancel: '&cTörölje a küldetést'
@@ -614,8 +556,6 @@ hu:
   condition_variable_not_met: nem
   chest_occupied: This chest is already in use # TODO: missing translation
 vi:
-  items_to_enchant: '&2{1} items left to enchant'
-  level_to_gain: '&2{1} levels left to gain'
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bĐối thoại với {1}&b bắt đầu!&e===='
   conversation_end: '&e====&bĐối thoại với {1}&b đã xong!&e===='
@@ -652,6 +592,8 @@ vi:
   items_to_pickup: '&2{1} vật phẩm cần nhặt lên còn lại'
   items_to_smelt: '&2{1} vật phẩm cần nung chảy còn lại'
   items_to_craft: '&2{1} vật phẩm cần chế tạo còn lại'
+  items_to_enchant: '&2{1} items left to enchant' # TODO: missing translation
+  level_to_gain: '&2{1} levels left to gain' # TODO: missing translation
   busy: '&cBạn không được nói khi đang đánh nhau.'
   quest_canceled: '&2Nhiệm vụ {1}&2 đã bị hủy!'
   cancel: '&cHủy nhiệm vụ'
@@ -675,8 +617,6 @@ vi:
   condition_variable_not_met: không
   chest_occupied: This chest is already in use # TODO: missing translation
 pt-br:
-  items_to_enchant: '&2{1} items left to enchant'
-  level_to_gain: '&2{1} levels left to gain'
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bComeçou a conversar com {1}&b!&e===='
   conversation_end: '&e====&bTerminou a conversa com {1}&b!&e===='
@@ -711,6 +651,8 @@ pt-br:
   items_to_pickup: '&2{1} itens restantes para pegar'
   items_to_smelt: '&2{1} itens restantes para derreter'
   items_to_craft: '&2{1} itens restantes para construir'
+  items_to_enchant: '&2{1} items left to enchant' # TODO: missing translation
+  level_to_gain: '&2{1} levels left to gain' # TODO: missing translation
   busy: '&cVocê não pode conversar enquanto luta.'
   quest_canceled: '&2Missão {1}&2 cancelada!'
   cancel: '&cCancelar a Missão'
@@ -730,4 +672,60 @@ pt-br:
   condition_variable_met: sim
   condition_variable_not_met: não
   chest_occupied: This chest is already in use # TODO: missing translation
+pt-pt:
+  conversation_prefix: '&2[&9{1}&2] '
+  conversation_start: '&e====&bA conversa com {1}&b começou.&e===='
+  conversation_end: '&e====&bA conversa com {1}&b terminou.&e===='
+  no_permission: '&cNão tens permissão para isso.'
+  new_journal_entry: '&e*&bO teu diario foi atualizado.&e*'
+  journal_title: Diario
+  journal_lore: É o teu diario, contem informação de todas as tuas missões.
+  quest_item: '&2Item de missão'
+  backpack_title: Mochila de missões
+  previous: '&2Anterior'
+  next: '&2Seguinte'
+  inventory_full: '&e*&bO teu inventario está cheio.&e*'
+  changelog: '&f[BetonQuest]: &e*&bNovo changelog disponivel na pasta do plugin plugin.
+    Leia as mudanças e apague ou renomeie o ficheiro para remover esta mensagem!&e*'
+  pullback: '&cDeves terminar a conversa.'
+  items_given: '&2Recebido {1}&2 x{2}'
+  items_taken: '&2Perdido {1}&2 x{2}'
+  money_given: '&2Recebido {1} {2}'
+  money_taken: '&2Perdido {1} {2}'
+  point_given: '&2Tu recebeste {1} pontos para {2}'
+  point_taken: '&2Tu perdeste {1} pontos para {2}'
+  point_multiplied: '&2Os teus pontos {2} foram multiplicados por {1}'
+  blocks_to_break: '&2{1} blocos restantes para quebrar'
+  blocks_to_place: '&2{1} blocos restantes para colocar'
+  mobs_to_kill: '&2{1} mobs restantes para matar'
+  mobs_to_click: '&2{1} mobs restantes para clicar'
+  players_to_kill: '&2{1} jogadores restantes para matar'
+  fish_to_catch: '&2{1} peixes restantes para pescar'
+  sheep_to_shear: '&2{1} ovelhas restantes para aparar'
+  potions_to_brew: '&2{1} poções restantes para criar'
+  animals_to_breed: '&2{1} animais restantes para procriar'
+  items_to_pickup: '&2{1} itens restantes para coletar'
+  items_to_smelt: '&2{1} itens restantes para fundir'
+  items_to_craft: '&2{1} items restantes para criar'
+  items_to_enchant: '&2{1} items left to enchant' # TODO: missing translation
+  level_to_gain: '&2{1} levels left to gain' # TODO: missing translation
+  busy: '&cNão podes falar enquanto lutas!'
+  quest_canceled: '&2Missão {1}&2 cancelada!'
+  cancel: '&cCancelar a missão'
+  cancel_page: Cancelar missões
+  compass: '&cObjetivos da bússola'
+  compass_page: Escolhe um objetivo
+  command_blocked: '&cNão podes usar este comando durante uma conversa.'
+  language_changed: '&2Idioma foi alterado!'
+  language_missing: '&cEspecifica um idioma'
+  language_not_exist: '&cEsse idioma não está definido, opções possiveis: '
+  days: dias
+  hours: horas
+  minutes: minutos
+  seconds: segundos
+  and: e
+  password: 'password: '
+  condition_variable_met: sim
+  condition_variable_not_met: não
+  chest_occupied: Este bau já se encontra em uso
 configVersion: 2.0.0-CONFIG-2 # Don't change this! The plugin's automatic config updater handles it.
