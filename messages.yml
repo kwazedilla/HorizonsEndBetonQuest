@@ -62,8 +62,12 @@ pl:
   chest_occupied: This chest is already in use # TODO: missing translation
 en:
   conversation_prefix: '&2[&9{1}&2] '
-  conversation_start: '\\n&e====&bConversation with {1}&b started!&e===='
-  conversation_end: '&e====&bConversation with {1}&b finished!&e====\\n'
+  conversation_start: >-
+    
+    &e====&bConversation with {1}&b started!&e====
+  conversation_end: >-
+    &e====&bConversation with {1}&b finished!&e====
+
   no_permission: '&cYou don''t have permission.'
   new_journal_entry: '&e*&bJournal updated!&e*'
   journal_title: Journal
