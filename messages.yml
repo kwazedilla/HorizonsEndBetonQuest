@@ -65,9 +65,11 @@ en:
   conversation_start: >-
     
     &8----[ &7Conversation with &b{1}&7 started!&8 ]----
+
   conversation_end: >-
     
     &8----[ &7Conversation with &b{1}&7 finished!&8 ]----
+
   no_permission: '&cYou don''t have permission.'
   new_journal_entry: '&e*&bJournal updated!&e*'
   journal_title: Journal
