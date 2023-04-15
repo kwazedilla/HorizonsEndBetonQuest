@@ -10,13 +10,13 @@ journal_main_page:
     can_started:
         priority: 2
         text: '  $default.journal_status_1$$quest_name$'
-        conditions: '!cheth_collector_cond_acc,!cheth_collector_cond_done'
+        conditions: '!condAcc,!condDone'
     started:
         priority: 1
         text: '  $default.journal_status_2$$quest_name$'
-        conditions: 'cheth_collector_cond_acc,!cheth_collector_cond_done'
+        conditions: 'condAcc,!condDone'
     finished:
         priority: 3
         text: '  $default.journal_status_3$$quest_name$'
-        conditions: 'cheth_collector_cond_done'
+        conditions: 'condDone'
 
