@@ -21,12 +21,12 @@ acceptNPCLeftClick: false
 npcInteractionLimit: 1000
 default_conversation_IO: tellraw
 conversation_colors:
-  npc: yellow
-  player: dark_green
+  npc: gold,bold
+  player: green,bold
   text: white,italic
   answer: gray
-  number: gray
-  option: aqua
+  number: gray,bold
+  option: aqua,underline
 conversation_IO_config:
   chest:
     show_number: true
