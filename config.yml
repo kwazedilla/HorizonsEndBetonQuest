@@ -19,7 +19,7 @@ max_npc_distance: 5.3
 citizens_npcs_by_name: false
 acceptNPCLeftClick: false
 npcInteractionLimit: 1000
-default_conversation_IO: tellraw
+default_conversation_IO: slowtellraw
 conversation_colors:
   npc: gold,bold
   player: dark_gray,italic
