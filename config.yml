@@ -23,7 +23,7 @@ default_conversation_IO: tellraw
 conversation_colors:
   npc: gold,bold
   player: dark_gray,bold
-  text: white,italic
+  text: white
   answer: gray
   number: gray,bold
   option: aqua,underline
