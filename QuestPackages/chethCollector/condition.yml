@@ -1,4 +1,4 @@
 conditions:
   cond_acc: tag tag_acc
-  cond_active: objective obj_minecheth
+  cond_active: objective obj_mine_cheth
   cond_done: tag tag_done
