@@ -30,7 +30,7 @@ conversations:
         condition: "cond_start"
         pointer: conv_2_1_1
       conv_3_1:
-        text: "Sorry kid, I don't have any more commissions for you. &cCome back in %objective.dailyQuest_obj_delay.left%&r."
+        text: "Sorry kid, I don't have any more commissions for you. &cCome back in %objective.dailyQuest.obj_delay.left%&r."
         condition: "cond_lastquest"
         pointer: conv_3_1_1
       conv_4_1:
