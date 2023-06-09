@@ -1,2 +1,2 @@
 objectives:
-  objMineCheth: "block minecraft:brown_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=false] -4 notify events:evNotifyReturn,evJournalReturn,evJournalStartDel"
+  obj_mine_cheth: "block minecraft:brown_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=false] -4 notify events:ev_notify_return,ev_journal_return,ev_journal_start_del"
