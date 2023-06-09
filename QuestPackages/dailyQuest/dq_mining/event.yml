@@ -1,6 +1,6 @@
 events:
-  dq_mining_ev_folder_done: "folder dailyQuest.dailyQuest_ev_start_del,dailyQuest.dailyQuest_ev_notify_done,dailyQuest.dailyQuest_ev_streak_inc,dailyQuest.dailyQuest_ev_money,dailyQuest.dailyQuest_ev_maxquest_inc,dailyQuest.dailyQuest_ev_done,dailyQuest.dailyQuest_ev_comms_inc"
-  dq_mining_ev_folder_start: "folder dailyQuest.dailyQuest_ev_start"
+  dq_mining_ev_folder_done: "folder dailyQuest.ev_start_del,dailyQuest.ev_notify_done,dailyQuest.ev_streak_inc,dailyQuest.ev_money,dailyQuest.ev_maxquest_inc,dailyQuest.ev_done,dailyQuest.ev_comms_inc"
+  dq_mining_ev_folder_start: "folder dailyQuest.ev_start"
 
   dq_mineIronOre_ev_obj_start: "objective start dq_mineIronOre_obj"
   dq_mineIronOre_ev_obj_del: "objective delete dq_mineIronOre_obj"

@@ -10,20 +10,20 @@
 #    can_started:
 #        priority: 12
 #        text: '  $default.journal_status_1$$quest_name$'
-#        conditions: '!dailyQuest_cond_start,!dailyQuest_cond_lastquest'
+#        conditions: '!cond_start,!cond_lastquest'
 #    started:
 #        priority: 11
 #        text: '  $default.journal_status_2$$quest_name$'
-#        conditions: 'dailyQuest_cond_start,!dailyQuest_cond_lastquest'
+#        conditions: 'cond_start,!cond_lastquest'
 #    finished:
 #        priority: 13
 #        text: '  $default.journal_status_3$$quest_name$'
-#        conditions: 'dailyQuest_cond_lastquest'
+#        conditions: 'cond_lastquest'
 
 
 #schedules:
 #  startDailyQuest:
 #    type: realtime-cron
 #    time: '* * * * *'
-#    events: dailyQuest_ev_journal_update
+#    events: ev_journal_update
 #    catchup: one

@@ -24,18 +24,18 @@ conversations:
         extends: conv_1_5_d
       conv_1_5_d:
         text: " Commissions reset in &b%objective.dailyQuest_obj_delay.left%&r."
-        condition: "!dailyQuest_cond_firstquest"
+        condition: "!cond_firstquest"
       conv_2_1:
         text: "Look, kiddo, you should probably finish your current &bdaily commission&r first. Check your &a/journal&r for details."
-        condition: "dailyQuest_cond_start"
+        condition: "cond_start"
         pointer: conv_2_1_1
       conv_3_1:
         text: "Sorry kid, I don't have any more commissions for you. &cCome back in %objective.dailyQuest_obj_delay.left%&r."
-        condition: "dailyQuest_cond_lastquest"
+        condition: "cond_lastquest"
         pointer: conv_3_1_1
       conv_4_1:
         text: "Yeah, I've got a commission for you. Check your &a/journal&r to see what you have to do today..."
-        condition: "!dailyQuest_cond_start,!dailyQuest_cond_lastquest"
+        condition: "!cond_start,!cond_lastquest"
         pointer: conv_4_1_1
 
     player_options:
@@ -67,4 +67,4 @@ conversations:
         text: "(Exit conversation)"
       conv_4_1_1:
         text: "(Start Quest: Daily Commission)"
-        event: dailyQuest_ev_obj_random,dailyQuest_ev_obj_delay_start
+        event: ev_obj_random,ev_obj_delay_start
