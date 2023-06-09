@@ -40,9 +40,7 @@ conversations:
 
     player_options:
       conv_1_1_1:
-        text: >-
-          Can I get a commission?
-
+        text: "Can I get a commission?"
         pointer: "conv_2_1, conv_3_1, conv_4_1"
       conv_1_1_2:
         text: "About daily commissions..."
