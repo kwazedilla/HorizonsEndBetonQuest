@@ -2,7 +2,7 @@ conversations:
   flynn_bart:
     quester: "Flynn Bart"
     stop: "true"
-    first: "conv_01, fail, succeed_01, done"
+    first: "conv_01, in_progress, succeed_01, done"
     NPC_options:
       conv_01:
         text: "Hello there, Space Cadet! Before you get started on your space journey, you should probably learn a thing or two about &5chetherite&r.\n"
@@ -30,14 +30,13 @@ conversations:
         text: "Good luck! And remember, check your &a/journal &rif you forget your objectives. &bAsk for help from other players, too!&r\n"
         pointer: "conv_08_r"
 
-      fail:
-        text: "You haven't collected &bsixteen chetherite&r yet. Remember, &euse the Dynmap to navigate through space&r, check your&a /journal&r, and to ask for help in the &2global chat&r.\n"
-        condition: "cond_active"
-        pointer: "fail_r"
+      in_progress:
+        text: "Hope you're busy collecting &5chetherite&r!. Remember, &euse the Dynmap to navigate through space&r, check your&a /journal&r, and to ask for help in the &2global chat&r.\n"
+        condition: "cond_acc"
+        pointer: "in_progress_r"
 
       succeed_01:
         text: "Nice job; well done! You've &blearned how to pilot your starship&r and &ago to other planets&r. As promised, here is an extra &5chetherite&r stipend.\n"
-        condition: "cond_acc, !cond_active, !cond_done"
         pointer: "succeed_01_r"
       succeed_02:
         text: "You've gained the skills to become a true space cadet. Good luck on your journey!\n"
@@ -74,16 +73,20 @@ conversations:
         text: "(Start Quest: Chetherite Collector)"
         event: "ev_acc, ev_obj_start, ev_notify_start, ev_journal_start, spawnTutorial.tutbot02_ev_dynmap_link"
 
-      fail_r:
+      in_progress_r:
         text: "Got it."
         event: "spawnTutorial.tutbot02_ev_dynmap_link"
+      finish:
+        text: "(Complete Quest: Chetherite Collector)"
+        pointer: "succeed_01"
+        condition: "cond_acc, !cond_active, !cond_done"
+        event: "ev_done, ev_reward, ev_notify_done, ev_journal_return_del"
 
       succeed_01_r:
         text: "Thank you."
         pointer: "succeed_02"
       succeed_02_r:
         text: "Take care now!"
-        event: "ev_done, ev_reward, ev_notify_done, ev_journal_return_del"
 
       done_r:
         text: "..."
