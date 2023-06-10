@@ -32,7 +32,7 @@ conversations:
 
       in_progress:
         text: "Hope you're busy collecting &5chetherite&r!. Remember, &euse the Dynmap to navigate through space&r, check your&a /journal&r, and to ask for help in the &2global chat&r.\n"
-        condition: "cond_acc"
+        condition: "cond_acc, !cond_done"
         pointer: "in_progress_r, finish"
 
       succeed_01:
