@@ -2,7 +2,7 @@ conversations:
   flynn_bart:
     quester: "Flynn Bart"
     stop: "true"
-    first: "conv_01, in_progress, succeed_01, done"
+    first: "conv_01, in_progress, done"
     NPC_options:
       conv_01:
         text: "Hello there, Space Cadet! Before you get started on your space journey, you should probably learn a thing or two about &5chetherite&r.\n"
