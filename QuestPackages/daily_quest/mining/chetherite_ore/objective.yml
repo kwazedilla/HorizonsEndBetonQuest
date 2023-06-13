@@ -1,0 +1,2 @@
+objectives:
+  obj_mine_ore: "block minecraft:brown_mushroom_block[down=false,east=true,north=true,south=false,up=true,west=false] -8 notify event:ev_done"

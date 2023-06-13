@@ -1,0 +1,2 @@
+objectives:
+  obj_mine_ore: "block minecraft:emerald_ore -8 notify event:ev_done"
