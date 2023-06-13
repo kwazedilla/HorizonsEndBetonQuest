@@ -1,0 +1,2 @@
+variables:
+  journal_headline: "$dailyQuest.journal_headline$"
