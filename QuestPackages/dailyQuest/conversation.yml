@@ -4,37 +4,37 @@ conversations:
     first: "conv_1_1"
     NPC_options:
       conv_1_1:
-        text: "Hey kid, I'm the Commissions Droid. I give out commissions."
+        text: "Hey kid, I'm the Commissions Droid. I give out commissions.\n"
         pointer: conv_1_1_1, conv_1_1_2, conv_1_1_3
       conv_1_2:
-        text: "&aDaily commissions&r are my way of making sure that you're a proper Space Cadet. That &6&lCertification Droid&r at Landing has their eye out for you. Now that their training for you is complete, it's my turn."
+        text: "&aDaily commissions&r are my way of making sure that you're a proper Space Cadet. That &6&lCertification Droid&r at Landing has their eye out for you. Now that their training for you is complete, it's my turn to ensure that you're making progress in the galaxy.\n"
         pointer: conv_1_2_1
       conv_1_3:
-        text: "Completing daily commissions will earn you some &eCredits&r, and you can do &bthree&r per day. Once you complete the first one, you must &cwait 24 hours&r before your daily commission limit is reset. &cFailing to complete a commission during this time will reset it but not incur any penalty&r."
+        text: "Completing daily commissions will earn you some &eCredits&r, and you can do &bthree&r per day. Once you complete the first one, you must &cwait 24 hours&r before your daily commission limit is reset. &cFailing to complete a commission during this time will reset it but not incur any penalty&r.\n"
         pointer: conv_1_3_1
       conv_1_4:
-        text: "As you do more commissions, you will earn a &estreak&r. The higher your streak, &bthe more money you will earn on subsequent commissions&r."
+        text: "As you do more commissions, you will earn a &estreak&r. The higher your streak, &bthe more money you will earn on subsequent commissions&r.\n"
         pointer: conv_1_4_1
       conv_1_6:
-        text: "Now scram, kid. &cGo do a commission or something&r."
+        text: "Now scram, kid. &cGo do a commission or something&r.\n"
         pointer: conv_1_6_1
       conv_1_5:
-        text: "Your current commission streak is &b%point.commstreak.amount%&r and you will receive at least &e$%math.calc:(200*point.commstreak.amount)+5000%&r as a reward for your next commission. You can do &b%math.calc:3-point.maxquest.amount%&r more commissions today."
+        text: "Your current commission streak is &b%point.commstreak.amount%&r and you will receive at least &e$%math.calc:(200*point.commstreak.amount)+5000%&r as a reward for your next commission. You can do &b%math.calc:3-point.maxquest.amount%&r more commissions today.\n"
         pointer: conv_1_5_1
         extends: conv_1_5_d
       conv_1_5_d:
-        text: " Commissions reset in &b%objective.dailyQuest.obj_delay.left%&r."
+        text: " Commissions reset in &b%objective.dailyQuest.obj_delay.left%&r.\n"
         condition: "!cond_firstquest"
       conv_2_1:
-        text: "Look, kiddo, you should probably finish your current &bdaily commission&r first. Check your &a/journal&r for details."
+        text: "Look, kiddo, you should probably finish your current &bdaily commission&r first. Check your &a/journal&r for details.\n"
         condition: "cond_start"
         pointer: conv_2_1_1
       conv_3_1:
-        text: "Sorry kid, I don't have any more commissions for you. &cCome back in %objective.dailyQuest.obj_delay.left%&r."
+        text: "Sorry kid, I don't have any more commissions for you. &cCome back in %objective.dailyQuest.obj_delay.left%&r.\n"
         condition: "cond_lastquest"
         pointer: conv_3_1_1
       conv_4_1:
-        text: "Yeah, I've got a commission for you. Check your &a/journal&r to see what you have to do today..."
+        text: "Yeah, I've got a commission for you. Check your &a/journal&r to see what you have to do today...\n"
         condition: "!cond_start,!cond_lastquest"
         pointer: conv_4_1_1
 

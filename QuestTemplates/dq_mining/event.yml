@@ -1,0 +1,9 @@
+events:
+  ev_obj_start: "objective start obj_mine_ore"
+  ev_obj_del: "objective delete obj_mine_ore"
+  ev_notify_start: "notify &bDaily Commission\n&fMine Ore io:title"
+  ev_journal_start: "journal add journal_mine_ore"
+  ev_journal_del: "journal delete journal_mine_ore"
+  ev_start: "folder dailyQuest.ev_start,ev_obj_start,ev_notify_start,ev_journal_start"
+  ev_done: "folder dailyQuest.ev_complete,ev_journal_del"
+  ev_purge: "folder ev_obj_del,ev_journal_del"
