@@ -1,5 +1,5 @@
 journal:
-  journal_mineOre: >-
+  journal_mine_ore: >-
     $journal_headline$
       Mine &2%math.calc:-1*objective.obj_mine_ore.left% Iron Ore&0.
     
