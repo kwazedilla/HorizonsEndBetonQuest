@@ -1,5 +1,5 @@
 journal:
-  journal_mine_ore: >-
+  journal_kill_mob: >-
     $journal_headline$
       Kill &2%math.calc:-1*objective.obj_kill_mob.left% Mobs&0.
     
