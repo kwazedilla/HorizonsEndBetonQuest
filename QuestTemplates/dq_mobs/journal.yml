@@ -1,6 +1,6 @@
 journal:
   journal_kill_mob: >-
     $journal_headline$
-      Kill &2%math.calc:-1*objective.obj_kill_mob.left% Mobs&0.
+      Kill &2%math.calc:objective.obj_kill_mob.left% Mobs&0.
     
       &2Rewards: &0$%math.calc:(200*point.daily_quest.commstreak.amount)+5000%
