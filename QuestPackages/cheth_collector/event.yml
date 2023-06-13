@@ -4,7 +4,7 @@ events:
   ev_obj_end: "objective complete obj_mine_cheth" # THIS EVENT CAUSES INFINITE LOOP!!!
   ev_done: "tag add tag_done"
 
-  ev_reward: "give chetherite:32"
+  ev_reward: "give chetherite:256"
 
   ev_notify_start: "notify &5Chetherite Collector\n&fCollect &b4&f Chetherite io:title"
   ev_notify_return: "notify &5Chetherite Collector\n&fReturn to &bFlynn Bart io:title"
