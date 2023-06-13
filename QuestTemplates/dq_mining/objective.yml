@@ -1,2 +1,2 @@
 objectives:
-  obj_mine_ore: "block minecraft:iron_ore -8 notify event:ev_done"
+  obj_mine_ore: "block minecraft:dirt -8 notify event:ev_done"
