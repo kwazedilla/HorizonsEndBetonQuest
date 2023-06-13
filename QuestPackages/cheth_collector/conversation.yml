@@ -71,11 +71,11 @@ conversations:
         pointer: "conv_08"
       conv_08_r:
         text: "(Start Quest: Chetherite Collector)"
-        event: "ev_acc, ev_obj_start, ev_notify_start, ev_journal_start, spawnTutorial.tutbot02_ev_dynmap_link"
+        event: "ev_acc, ev_obj_start, ev_notify_start, ev_journal_start, spawn_tutorial.tutbot02_ev_dynmap_link"
 
       in_progress_r:
         text: "Got it."
-        event: "spawnTutorial.tutbot02_ev_dynmap_link"
+        event: "spawn_tutorial.tutbot02_ev_dynmap_link"
       finish:
         text: "(Complete Quest: Chetherite Collector)"
         pointer: "succeed_01"

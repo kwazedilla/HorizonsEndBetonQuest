@@ -23,14 +23,14 @@ conversations:
         pointer: conv_1_5_1
         extends: conv_1_5_d
       conv_1_5_d:
-        text: " Commissions reset in &b%objective.dailyQuest.obj_delay.left%&r.\n"
+        text: " Commissions reset in &b%objective.daily_quest.obj_delay.left%&r.\n"
         condition: "!cond_firstquest"
       conv_2_1:
         text: "Look, kiddo, you should probably finish your current &bdaily commission&r first. Check your &a/journal&r for details.\n"
         condition: "cond_start"
         pointer: conv_2_1_1
       conv_3_1:
-        text: "Sorry kid, I don't have any more commissions for you. &cCome back in %objective.dailyQuest.obj_delay.left%&r.\n"
+        text: "Sorry kid, I don't have any more commissions for you. &cCome back in %objective.daily_quest.obj_delay.left%&r.\n"
         condition: "cond_lastquest"
         pointer: conv_3_1_1
       conv_4_1:

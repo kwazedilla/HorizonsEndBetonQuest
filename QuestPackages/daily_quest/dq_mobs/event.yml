@@ -1,6 +1,6 @@
 events:
-  dq_mobs_ev_folder_done: "folder dailyQuest.ev_start_del,dailyQuest.ev_notify_done,dailyQuest.ev_streak_inc,dailyQuest.ev_money,dailyQuest.ev_maxquest_inc,dailyQuest.ev_done,dailyQuest.ev_comms_inc"
-  dq_mobs_ev_folder_start: "folder dailyQuest.ev_start"
+  dq_mobs_ev_folder_done: "folder daily_quest.ev_start_del,daily_quest.ev_notify_done,daily_quest.ev_streak_inc,daily_quest.ev_money,daily_quest.ev_maxquest_inc,daily_quest.ev_done,daily_quest.ev_comms_inc"
+  dq_mobs_ev_folder_start: "folder daily_quest.ev_start"
 
   dq_killZombie_ev_obj_start: "objective start dq_killZombie_obj"
   dq_killZombie_ev_obj_del: "objective delete dq_killZombie_obj"

@@ -1,6 +1,6 @@
 events:
-  dq_delivery_ev_folder_done: "folder dailyQuest.ev_start_del,dailyQuest.ev_notify_done,dailyQuest.ev_streak_inc,dailyQuest.ev_money,dailyQuest.ev_maxquest_inc,dailyQuest.ev_done,dailyQuest.ev_comms_inc"
-  dq_delivery_ev_folder_start: "folder dailyQuest.ev_start"
+  dq_delivery_ev_folder_done: "folder daily_quest.ev_start_del,daily_quest.ev_notify_done,daily_quest.ev_streak_inc,daily_quest.ev_money,daily_quest.ev_maxquest_inc,daily_quest.ev_done,daily_quest.ev_comms_inc"
+  dq_delivery_ev_folder_start: "folder daily_quest.ev_start"
 
   dq_joshVos_ev_obj_start: "tag add dq_joshVos_obj"
   dq_joshVos_ev_obj_del: "tag delete dq_joshVos_obj"

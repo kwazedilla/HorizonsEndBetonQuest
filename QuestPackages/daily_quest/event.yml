@@ -5,17 +5,17 @@ events:
   ev_done_del: "tag del done"
   ev_streak_inc: "point commstreak 1 conditions:!cond_maxstreak,cond_firstquest"
   ev_streak_reset: "point commstreak *0"
-  ev_purge: "folder ev_start_del,dailyQuest-dq_mobs.dq_mobs_ev_purge,dailyQuest-dq_mining.dq_mining_ev_purge"
+  ev_purge: "folder ev_start_del,daily_quest-dq_mobs.dq_mobs_ev_purge,daily_quest-dq_mining.dq_mining_ev_purge"
 
   ev_obj_delay_start: "objective start obj_delay conditions:!cond_done"
-  ev_obj_random: "folder dailyQuest-dq_mining.dq_mining_ev_random,dailyQuest-dq_mobs.dq_mobs_ev_random,dailyQuest-dq_delivery.dq_delivery_ev_random random:1"
+  ev_obj_random: "folder daily_quest-dq_mining.dq_mining_ev_random,daily_quest-dq_mobs.dq_mobs_ev_random,daily_quest-dq_delivery.dq_delivery_ev_random random:1"
 
   ev_notify_done: "notify &bDaily Commission\n&aQuest Complete io:title"
   ev_journal_update: "journal update"
 
   ev_money: "money %math.calc:(200*point.commstreak.amount)+5000% notify"
 
-  ev_complete: "folder dailyQuest.ev_start_del,dailyQuest.ev_notify_done,dailyQuest.ev_streak_inc,dailyQuest.ev_money,dailyQuest.ev_maxquest_inc,dailyQuest.ev_done,dailyQuest.ev_comms_inc"
+  ev_complete: "folder daily_quest.ev_start_del,daily_quest.ev_notify_done,daily_quest.ev_streak_inc,daily_quest.ev_money,daily_quest.ev_maxquest_inc,daily_quest.ev_done,daily_quest.ev_comms_inc"
 
   ev_maxquest_reset: "point maxquest *0"
   ev_maxquest_give: "point maxquest 3"
