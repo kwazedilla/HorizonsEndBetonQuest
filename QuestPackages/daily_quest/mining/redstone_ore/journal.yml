@@ -3,4 +3,4 @@ journal:
     $journal_headline$
       Mine &2%math.calc:-1*objective.obj_mine_ore.left% Redstone Ore&0.
     
-      &2Rewards: &0$%math.calc:(200*point.dailyQuest.commstreak.amount)+5000%
+      &2Rewards: &0$%math.calc:(200*point.daily_quest.commstreak.amount)+5000%

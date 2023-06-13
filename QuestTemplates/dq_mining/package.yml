@@ -1,2 +1,2 @@
 variables:
-  journal_headline: "$dailyQuest.journal_headline$"
+  journal_headline: "$daily_quest.journal_headline$"

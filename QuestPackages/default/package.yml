@@ -36,7 +36,7 @@ journal_main_page:
     priority: 5
     text: >-
       $journal_head_prefix$Repeatable Quests$journal_head_suffix$
-  #dailyquests:
+  #daily_quests:
   #    priority: 10
   #    text: >-
 

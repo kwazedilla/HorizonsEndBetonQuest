@@ -30,7 +30,7 @@ journal_main_page:
 
 
 #schedules:
-#  startDailyQuest:
+#  startdaily_quest:
 #    type: realtime-cron
 #    time: '* * * * *'
 #    events: ev_journal_update
