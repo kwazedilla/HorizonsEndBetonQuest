@@ -75,6 +75,7 @@ conversations:
 
       in_progress_r:
         text: "Got it."
+        condition: "cond_acc, cond_active, !cond_done"
         event: "spawn_tutorial.tutbot02_ev_dynmap_link"
       finish:
         text: "(Complete Quest: Chetherite Collector)"
