@@ -1,0 +1,6 @@
+journal:
+  journal_mine_ore: >-
+    $journal_headline$
+      Kill &2%math.calc:-1*objective.obj_kill_mob.left% Zombies&0.
+    
+      &2Rewards: &0$%math.calc:(200*point.daily_quest.commstreak.amount)+5000%

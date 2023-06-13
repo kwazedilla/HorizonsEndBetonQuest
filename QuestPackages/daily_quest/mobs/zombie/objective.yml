@@ -1,0 +1,2 @@
+objectives:
+  obj_mine_ore: "mobkill ZOMBIE 5 notify event:ev_done"

@@ -1,0 +1,10 @@
+events:
+  ev_obj_start: "objective start obj_kill_mob"
+  ev_obj_del: "objective delete obj_kill_mob"
+  ev_notify_start: "notify &bDaily Commission\n&fKill Mobs io:title"
+  ev_journal_start: "journal add journal_kill_mob"
+  ev_journal_del: "journal delete journal_kill_mob"
+  ev_journal_update: "journal update"
+  ev_start: "folder daily_quest.ev_start,ev_obj_start,ev_notify_start,ev_journal_start"
+  ev_done: "folder daily_quest.ev_complete,ev_journal_del"
+  ev_purge: "folder daily_quest.ev_start_del,ev_obj_del,ev_journal_del,ev_journal_update"
