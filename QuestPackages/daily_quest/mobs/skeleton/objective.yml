@@ -1,0 +1,2 @@
+objectives:
+  obj_kill_mob: "mobkill SKELETON 5 notify event:ev_done"
