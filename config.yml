@@ -1,5 +1,4 @@
-# If there is a Permission Denied error in the console, chmod +777 this file
-configVersion: 2.0.0-CONFIG-5 # Don't change this! The plugin's automatic config updater handles it.
+configVersion: 2.0.0-CONFIG-6 # Don't change this! The plugin's automatic config updater handles it.
 mysql:
   enabled: false
   host: ''
@@ -8,6 +7,7 @@ mysql:
   pass: ''
   base: ''
   prefix: betonquest_
+  reconnect_interval: 1000
 language: en
 update:
   enabled: true
@@ -18,36 +18,37 @@ default_journal_slot: -1
 max_npc_distance: 5.3
 citizens_npcs_by_name: false
 acceptNPCLeftClick: false
-npcInteractionLimit: 1000
-default_conversation_IO: tellraw
+npcInteractionLimit: 500
+default_conversation_IO: menu,chest
 conversation_colors:
-  npc: gold,bold
-  player: dark_gray,italic
-  text: white
-  answer: gray,italic
-  number: gray,bold
-  option: aqua,underline
+  npc: dark_red
+  player: dark_green
+  text: green,italic
+  answer: gray
+  number: yellow
+  option: aqua
 conversation_IO_config:
   chest:
     show_number: true
     show_npc_text: true
-default_interceptor: packet,simple
+default_interceptor: redischat,packet,simple
 default_hologram: DecentHolograms,HolographicDisplays
 display_chat_after_conversation: true
-combat_delay: 1
+combat_delay: 10
 notify_pullback: true
 remove_items_after_respawn: true
 quest_items_unbreakable: true
 player_hider_check_interval: 20
 npc_hider_check_interval: 100
+hologram_update_interval: 200
 sounds:
-  start: BLOCK_NOTE_BLOCK_BIT
-  end: BLOCK_NOTE_BLOCK_BELL
+  start: ENTITY_VILLAGER_AMBIENT
+  end: ENTITY_VILLAGER_YES
   journal: ENTITY_BAT_TAKEOFF
   update: false
   full: false
 cmd_blacklist:
-  - spawn
+- spawn
 hook:
   citizens: true
   mythicmobs: true
@@ -77,13 +78,14 @@ hook:
   luckperms: true
   aureliumskills: true
   fake-block: true
+  redischat: true
 journal:
-  chars_per_line: 20
+  chars_per_line: 19
   lines_per_page: 13
-  one_entry_per_page: true
+  one_entry_per_page: false
   reversed_order: true
   hide_date: false
-  full_main_page: true
+  full_main_page: false
   show_in_backpack: true
   lock_default_journal_slot: false
   give_on_respawn: false
@@ -101,10 +103,12 @@ debug:
 download:
   pull_requests: false
   repo_whitelist:
-    - BetonQuest/Quest-Tutorials
+  - BetonQuest/Quest-Tutorials
 items:
   backpack:
     previous_button: ''
     next_button: ''
     cancel_button: DEFAULT
     compass_button: DEFAULT
+profiles:
+  initial_name: default

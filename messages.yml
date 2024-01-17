@@ -1,3 +1,4 @@
+configVersion: 2.0.0-CONFIG-2 # Don't change this! The plugin's automatic config updater handles it.
 pl:
   conversation_prefix: '&2[&9{1}&2] '
   conversation_start: '&e====&bRozpoczales rozmowe z {1}&b!&e===='
@@ -23,6 +24,7 @@ pl:
   money_taken: '&2Lost {1} {2}' # TODO: missing translation
   point_given: '&2You received {1} points to {2}' # TODO: missing translation
   point_taken: '&2You lost {1} points to {2}' # TODO: missing translation
+  point_set: '&2Your points {2} are set to {1}' # TODO: missing translation
   point_multiplied: '&2Your points {2} are multiplied by {1}' # TODO: missing translation
   blocks_to_break: '&2Pozostalo {1} blokow do zniszczenia'
   blocks_to_place: '&2Pozostalo {1} blokow do postawienia'
@@ -62,14 +64,8 @@ pl:
   chest_occupied: This chest is already in use # TODO: missing translation
 en:
   conversation_prefix: '&2[&9{1}&2] '
-  conversation_start: >-
-    
-    &8----[ &7Conversation with &b{1}&7 started!&8 ]----
-
-  conversation_end: >-
-    
-    &8----[ &7Conversation with &b{1}&7 finished!&8 ]----
-
+  conversation_start: '&e====&bConversation with {1}&b started!&e===='
+  conversation_end: '&e====&bConversation with {1}&b finished!&e===='
   no_permission: '&cYou don''t have permission.'
   new_journal_entry: '&e*&bJournal updated!&e*'
   journal_title: Journal
@@ -90,6 +86,7 @@ en:
   money_taken: '&2Lost {1} {2}'
   point_given: '&2You received {1} points to {2}'
   point_taken: '&2You lost {1} points to {2}'
+  point_set: '&2Your points {2} are set to {1}'
   point_multiplied: '&2Your points {2} are multiplied by {1}'
   blocks_to_break: '&2{1} blocks left to break'
   blocks_to_place: '&2{1} blocks left to place'
@@ -153,6 +150,7 @@ de:
   money_taken: '&2{1} {2} weggenommen.'
   point_given: '&2Du hast {1} Punkte für {2} erhalten'
   point_taken: '&2Du hast {1} Punkte von {2} verloren'
+  point_set: '&2Deine Punkte von {2} wurden auf {1} gesetzt'
   point_multiplied: '&2Deine Punkte in {2} wurden mit {1} multipliziert'
   blocks_to_break: '&2Noch {1} Blöcke abzubauen.'
   blocks_to_place: '&2Noch {1} Blöcke zu setzen.'
@@ -217,6 +215,7 @@ fr:
   money_taken: '&2{1} {2} perdu'
   point_given: '&2Vous avez reçu {1} points à {2}'
   point_taken: '&2Vous avez perdu {1} points à {2}'
+  point_set: '&2Your points {2} are set to {1}' # TODO: missing translation
   point_multiplied: '&2Vos points {2} sont multipliés par {1}'
   blocks_to_break: '&2Encore {1} blocs à casser'
   blocks_to_place: '&2Encore {1} blocs à poser'
@@ -276,6 +275,7 @@ cn:
   money_taken: '&2丢失 {1} {2}'
   point_given: '&2你收到了 {1} 点券，来自 {2}'
   point_taken: '&2你花费了 {1} 点券，在 {2}'
+  point_set: '&2Your points {2} are set to {1}' # TODO: missing translation
   point_multiplied: '&2你的点券 {2} 被乘以 {1}'
   blocks_to_break: '&2还需要再破坏{1}个方块'
   blocks_to_place: '&2还需要再放置{1}个方块'
@@ -289,8 +289,8 @@ cn:
   items_to_pickup: '&2{1} 个物品需要拾取'
   items_to_smelt: '&2{1} 个物品需要熔炼'
   items_to_craft: '&2{1} 个物品需要制作'
-  items_to_enchant: '&2{1} items left to enchant' # TODO: missing translation
-  level_to_gain: '&2{1} levels left to gain' # TODO: missing translation
+  items_to_enchant: '&2{1} 个物品需要附魔'
+  level_to_gain: '&2{1} 级经验还需要获取'
   busy: '&c你还在战斗中'
   quest_canceled: '&2任务 {1}&2 已取消!'
   cancel: '&c取消任务'
@@ -338,6 +338,7 @@ es:
   money_taken: '&2Perdido {1} {2}'
   point_given: '&2Recibiste {1} puntos para {2}'
   point_taken: '&2Perdiste {1} puntos por {2}'
+  point_set: '&2Your points {2} are set to {1}' # TODO: missing translation
   point_multiplied: '&2Tus puntos {2} se multiplican por {1}'
   blocks_to_break: '&2{1} bloques restantes que romper'
   blocks_to_place: '&2{1} bloques restantes que colocar'
@@ -399,6 +400,7 @@ nl:
   money_taken: '&2Geld verloren: {1} {2}'
   point_given: '&2Je hebt {1} punten ontvangen voor {2}'
   point_taken: '&2Je hebt {1} punten verloren voor {2}'
+  point_set: '&2Your points {2} are set to {1}' # TODO: missing translation
   point_multiplied: '&2Je punten voor {2} zijn vermenigvuldigd met {1}'
   blocks_to_break: '&2{1} blokken over om te breken.'
   blocks_to_place: '&2{1} blokken over om te plaatsen.'
@@ -461,6 +463,7 @@ it:
   money_taken: '&2Hai perso {1} {2}'
   point_given: '&2Hai ricevuto {1} punti da {2}'
   point_taken: '&2Hai perso {1} punti da {2}'
+  point_set: '&2Your points {2} are set to {1}' # TODO: missing translation
   point_multiplied: '&2I tuoi punti {2} sono moltiplicati di {1}'
   blocks_to_break: '&2{1} blocchi rimasti da rompere'
   blocks_to_place: '&2{1} blocchi rimasti da piazzare'
@@ -524,6 +527,7 @@ hu:
   money_taken: '&2Lost {1} {2}' # TODO: missing translation
   point_given: '&2You received {1} points to {2}' # TODO: missing translation
   point_taken: '&2You lost {1} points to {2}' # TODO: missing translation
+  point_set: '&2Your points {2} are set to {1}' # TODO: missing translation
   point_multiplied: '&2Your points {2} are multiplied by {1}' # TODO: missing translation
   blocks_to_break: '&2{1} blokkot hagyott kitörni'
   blocks_to_place: '&2{1} blokkot hagyott lerakni'
@@ -585,6 +589,7 @@ vi:
   money_taken: '&2Đã mất {1} {2}'
   point_given: '&2Bạn đã nhận {1} points từ {2}'
   point_taken: '&2Bạn đã mất {1} points từ {2}'
+  point_set: '&2Your points {2} are set to {1}' # TODO: missing translation
   point_multiplied: '&2Points của bạn {2} sẽ được nhân {1} lần'
   blocks_to_break: '&2{1} khối cần phá còn lại'
   blocks_to_place: '&2{1} khối cần đặt còn lại'
@@ -644,6 +649,7 @@ pt-br:
   money_taken: '&2Perdeu {1} {2}'
   point_given: '&2Você recebeu {1} pontos de {2}'
   point_taken: '&2Você perdeu {1} pontos de {2}'
+  point_set: '&2Your points {2} are set to {1}' # TODO: missing translation
   point_multiplied: '&2Seus pontos {2} são multiplicados por {1}'
   blocks_to_break: '&2{1} blocos para quebrar restantes'
   blocks_to_place: '&2{1} blocos para colocar restantes'
@@ -700,6 +706,7 @@ pt-pt:
   money_taken: '&2Perdido {1} {2}'
   point_given: '&2Tu recebeste {1} pontos para {2}'
   point_taken: '&2Tu perdeste {1} pontos para {2}'
+  point_set: '&2Your points {2} are set to {1}' # TODO: missing translation
   point_multiplied: '&2Os teus pontos {2} foram multiplicados por {1}'
   blocks_to_break: '&2{1} blocos restantes para quebrar'
   blocks_to_place: '&2{1} blocos restantes para colocar'
@@ -734,4 +741,64 @@ pt-pt:
   condition_variable_met: sim
   condition_variable_not_met: não
   chest_occupied: Este bau já se encontra em uso
-configVersion: 2.0.0-CONFIG-2 # Don't change this! The plugin's automatic config updater handles it.
+ru:
+  conversation_prefix: '&2[&9{1}&2] '
+  conversation_start: '&e====&bДиалог с {1}&b начат!&e===='
+  conversation_end: '&e====&bДиалог с {1}&b закончен!&e===='
+  no_permission: '&cНедостаточно прав!'
+  new_journal_entry: '&e*&bЖурнал обновлён!&e*'
+  journal_title: Журнал
+  journal_lore: Ваш журнал, содержащий всю информацию о квестах
+  quest_item: '&2Квестовый предмет'
+  backpack_title: Рюкзак
+  previous: '&2Назад'
+  next: '&2Вперёд'
+  inventory_full_backpack: '&e*&bВаш инвентарь заполнен! Предмет был перемещён в рюкзак&e*'
+  inventory_full_drop: '&e*&bВаш инвентарь заполнен! Предмет был дропнут на землю&e*'
+  changelog: '&f[BetonQuest]: &e*&bНовый changelog доступин в директории плагина.
+    Прочитайте изменения и удалите или переименуйте файл чтобы отключить это сообщение!&e*'
+  pullback: '&cВы должны закончить ваш диалог!'
+  items_given: '&2Получено {1}&2 x{2}'
+  items_taken: '&2Забрано {1}&2 x{2}'
+  money_given: '&2Получено {1} {2}'
+  money_taken: '&2Забрано {1} {2}'
+  point_given: '&2Вы получили {1} поинтов в {2}'
+  point_taken: '&2У вас забрали {1} поинтов в {2}'
+  point_set: '&2Ваши поинты {2} были установлены в значении {1}'
+  point_multiplied: '&2Ваши поинты {2} были умножены на {1}'
+  blocks_to_break: '&2{1} блоков осталось сломать'
+  blocks_to_place: '&2{1} блоков осталось поставить'
+  mobs_to_kill: '&2{1} мобов осталось убить'
+  mobs_to_click: '&2Осталось {1} мобов, на которые нужно нажать'
+  players_to_kill: '&2{1} игроков осталось убить'
+  fish_to_catch: '&2{1} рыбы осталось поймать'
+  sheep_to_shear: '&2{1} овец осталось подстричь'
+  potions_to_brew: '&2{1} зелий осталось сварить'
+  animals_to_breed: '&2{1} животных осталось развести'
+  items_to_pickup: '&2{1} предметов осталось поднять'
+  items_to_smelt: '&2{1} предметов осталось переплавить'
+  items_to_craft: '&2{1} предметов осталось скрафтить'
+  items_to_enchant: '&2{1} предметов осталось зачаровать'
+  level_to_gain: '&2{1} уровней осталось набрать'
+  busy: '&cВы не можете разговаривать во время сражения!'
+  quest_canceled: '&2Квест {1}&2 отменён!'
+  cancel: '&cОтменить квест'
+  cancel_page: '&cВыберете квест, который собираетесь отменить'
+  compass: '&cВыберете цель на Квестовом Компасе'
+  compass_page: Выберете цель
+  command_blocked: '&cВы не можете использовать эту команду во время диалога'
+  language_changed: '&2Язык изменён!'
+  language_missing: '&cУкажите язык'
+  language_not_exist: '&cЭтот язык не определен, возможные варианты: '
+  days: дней
+  days_singular: день
+  hours: часов
+  hours_singular: час
+  minutes: минут
+  minutes_singular: минута
+  seconds: секунд
+  seconds_singular: секунда
+  password: 'пароль: '
+  condition_variable_met: да
+  condition_variable_not_met: нет
+  chest_occupied: Этот сундук уже кем-то используется!
